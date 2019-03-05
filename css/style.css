@@ -3,8 +3,9 @@
 }
 
 body {
+    width: 1920px;
     margin: 0 auto;
-   font-family: "Brutal Type";
+    font-family: "Brutal Type";
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -18,7 +19,7 @@ ul {
 }
 
 .container {
-    width: 1170px;
+    width: 1495px;
     margin: 0 auto;
     padding: 0 15px;
 }

@@ -26,9 +26,9 @@ ul {
 
 header .socItem a {
     font-size: 16px;
-    line-height: 36px;
     color: #102831;
     text-decoration: none;
+    background-color: #ffc638;
 }
 
 header .time {
@@ -43,6 +43,7 @@ header .logReg a {
     line-height: 36px;
     color: #11252d;
     text-decoration: none;
+    background-color: #ffc638;
 }
 
 header .infoItem a {
@@ -51,6 +52,7 @@ header .infoItem a {
     color: #11252d;
     text-decoration: none;
     font-weight: 700;
+    background-color: #ffc638;
 }
 
 header .infoItem a:visited {
@@ -69,11 +71,12 @@ header .infoItem a:hover {
     font-weight: 700;
 }
 
-.banner {
-    padding-left: 80px;
-    padding-top: 250px;
+.banner :nth-child {
     width: 1920px;
-    height: 907px;
+    height: 910px;
+}
+
+.banner {
     background: #102831;
     -webkit-background-size: cover;
     background-size: cover;
@@ -90,8 +93,8 @@ header .infoItem a:hover {
 
 .banner .titleLight h2 {
     font-size: 90px;
+    font-weight: bold;
     line-height: 100px;
-    background-position: left center;
     color: #ffffff;
 }
 
@@ -101,6 +104,10 @@ header .infoItem a:hover {
     color: #ffffff;
     background-color: #2baf68;
     text-decoration: none;
+}
+
+.portfolio {
+    background-color: #ffffff;
 }
 
 .portfolio .descrip span {
@@ -115,7 +122,7 @@ header .infoItem a:hover {
     color: #11252d;
 }
 
-.portfolio .btnYellow {
+.portfolio .descrip a {
     font-size: 16px;
     line-height: 36px;
     color: #11252d;
@@ -142,6 +149,7 @@ header .infoItem a:hover {
 }
 
 .advantages {
+    background: #102831;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,8 +162,9 @@ header .infoItem a:hover {
     color: #ffc638;
 }
 
-.advantages span {
+.advantages .tecSup {
     font-size: 40px;
+    font-weight: bold;
     line-height: 50px;
     color: #ffffff;
 }
@@ -173,6 +182,25 @@ header .infoItem a:hover {
     text-decoration: none;
 }
 
+.portfolio .catalog span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.packages :nth-child {
+    width: 896px;
+    height: 1916px;
+}
+
+.packages {
+    background: #102831;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .packages .title span {
     font-size: 20px;
     line-height: 50px;
@@ -181,9 +209,335 @@ header .infoItem a:hover {
 
 .packages .title h1 {
     font-size: 40px;
+    font-weight: bold;
     line-height: 50px;
     color: #ffffff;
 }
+
+.packages .optimum span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffc638;
+}
+
+.packages .items [class*="icon"] {
+    font-size: 40px;
+    color: #ffc638;
+}
+
+.packages .items span {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.packages .item [class*="icon"] {
+    font-size: 75px;
+    color: #ffc638;
+    background-color: #2baf68;
+}
+
+.packages .item .black {
+    font-size: 16px;
+    font-weight: bold;
+    color: #102831;
+    background-color: #2baf68;
+}
+
+.packages .item span {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
+
+.calculation {
+    background-color: #2b3f44;
+}
+
+.calculation label {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.calculation input {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.calculation select {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.calculation .common {
+    font-size: 18px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.calculation .sum {
+    font-size: 48px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.calculation .btnGreen {
+    font-size: 16px;
+    line-height: 36px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2baf68;
+}
+
+.calculation .right .one {
+    font-size: 18px;
+    line-height: 65px;
+    color: #2baf68;
+}
+
+.calculation .right .two {
+    font-size: 18px;
+    line-height: 65px;
+    color: #ffffff;
+}
+
+.calculation .down .refer {
+    font-size: 20px;
+    line-height: 55px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
+
+.calculation .down .per {
+    font-size: 30px;
+    line-height: 40px;
+    color: #102831;
+    background-color: #ffc638;
+}
+
+.results {
+    background-color: #ffffff;
+}
+
+.results span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.results h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #11252d;
+}
+
+.results p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+}
+
+.steps :nth-child {
+    width: 489px;
+    height: 1918px;
+}
+
+.steps {
+    background: #102831;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.steps .item .icon-screen {
+    font-size: 80px;
+    color: #47c481;
+}
+
+.steps .item .icon-coins {
+    font-size: 80px;
+    color: #47c481;
+}
+
+.steps .item .icon-graph {
+    font-size: 80px;
+    color: #47c481;
+}
+
+.steps .item .icon-hand {
+    font-size: 80px;
+    color: #47c481;
+}
+
+.steps .item .one {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.steps .item .textLight {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.statistic {
+    background-color: #ffffff;
+}
+
+.statistic .titleDark span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.statistic .titleDark h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #11252d;
+}
+
+.statistic .line .one {
+    font-size: 15px;
+    line-height: 30px;
+    color: #2baf68;
+}
+
+.statistic .line .two {
+    font-size: 15px;
+    line-height: 30px;
+    color: #11252d;
+}
+
+.statistic .line .three {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffb600;
+}
+
+.news {
+    background-color: #f0f1f1;
+}
+
+.news .allNews span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.news .allNews h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #11252d;
+}
+
+.news .allNews .btnYellow {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #102831;
+    text-decoration: none;
+    background-color: #ffc638;
+}
+
+.news .payments .one {
+    font-size: 13px;
+    line-height: 70px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
+
+.news .payments .two {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #102831;
+}
+
+.partners {
+    background-color: #2baf68;
+}
+
+.footer {
+    background-color: #102831;
+}
+
+footer .icon-point {
+    font-size: 19px;
+    line-height: 27px;
+    color: #ffc638;
+}
+
+footer .icon-envelope {
+    font-size: 19px;
+    line-height: 27px;
+    color: #ffc638;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+footer .post {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+footer .link1 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 29px;
+    color: #ffc638;
+    text-decoration: none;
+}
+
+footer .infoItem a {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .socItem a {
+    font-size: 16px;
+    color: #102831;
+    text-decoration: none;
+    background-color: #ffc638;
+}
+
+footer .copyright {
+    background-color: #ffffff;
+}
+
+footer .copyright {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #102831;
+}
+
+
+
+
+
+
+
+
+
 
 
 

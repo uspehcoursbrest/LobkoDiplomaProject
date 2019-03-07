@@ -24,4 +24,181 @@ ul {
     padding: 0 15px;
 }
 
+header .socItem a {
+    font-size: 16px;
+    line-height: 36px;
+    color: #102831;
+    text-decoration: none;
+}
+
+header .time {
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
+
+header .logReg a {
+    font-size: 13px;
+    line-height: 36px;
+    color: #11252d;
+    text-decoration: none;
+}
+
+header .infoItem a {
+    font-size: 16px;
+    line-height: 36px;
+    color: #11252d;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header .infoItem a:visited {
+    font-size: 16px;
+    line-height: 36px;
+    color: #11252d;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header .infoItem a:hover {
+    font-size: 16px;
+    line-height: 36px;
+    color: #11252d;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.banner {
+    padding-left: 80px;
+    padding-top: 250px;
+    width: 1920px;
+    height: 907px;
+    background: #102831;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner .titleLight span {
+    font-size: 40px;
+    line-height: 80px;
+    background-position: left center;
+    color: #ffffff;
+}
+
+.banner .titleLight h2 {
+    font-size: 90px;
+    line-height: 100px;
+    background-position: left center;
+    color: #ffffff;
+}
+
+.banner a {
+    font-size: 16px;
+    line-height: 36;
+    color: #ffffff;
+    background-color: #2baf68;
+    text-decoration: none;
+}
+
+.portfolio .descrip span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.portfolio .descrip h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #11252d;
+}
+
+.portfolio .btnYellow {
+    font-size: 16px;
+    line-height: 36px;
+    color: #11252d;
+    background-color: #ffc638;
+    text-decoration: none;
+}
+
+.portfolio .textDark {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+}
+
+.portfolio .tumbNail {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+    font-weight: bold;
+}
+
+.advantages :nth-child {
+    width: 570px;
+    height: 985px;
+}
+
+.advantages {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages .item .icon-head {
+    font-size: 112px;
+    line-height: 111px;
+    color: #ffc638;
+}
+
+.advantages span {
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.portfolio .textLight {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.portfolio .catalog a {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.packages .title span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.packages .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

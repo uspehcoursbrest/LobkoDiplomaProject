@@ -226,10 +226,16 @@ header .infoItem a:hover {
     color: #ffc638;
 }
 
-.packages .items span {
+.packages .items .one {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
+}
+
+.packages .items .two {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffc638;
 }
 
 .packages .item [class*="icon"] {
@@ -376,6 +382,13 @@ header .infoItem a:hover {
 }
 
 .steps .item .one {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.steps .item .two {
     font-size: 18px;
     font-weight: bold;
     line-height: 50px;
@@ -530,29 +543,188 @@ footer .copyright {
     color: #102831;
 }
 
+.Banner :nth-child {
+    width: 327px;
+    height: 1916px;
+}
 
+.Banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.Banner .titInvest {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: bold;
+    color: #ffffff;
+}
 
+.Packs .tumbNail {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: normal;
+    color: #11252d;
+}
 
+.Packs .icon-screen {
+    font-size: 80px;
+    color: #ffc638;
+}
 
+.Packs .icon-coins {
+    font-size: 80px;
+    color: #ffc638;
+}
 
+.Packs .icon-graph {
+    font-size: 80px;
+    color: #ffc638;
+}
 
+.Packs .icon-hand {
+    font-size: 80px;
+    color: #ffc638;
+}
 
+.Packs .items .one {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #2baf68;
+}
 
+.Packs .items .textDark {
+    font-size: 14px;
+    line-height: 22px;
+    color: #11252d;
+}
 
+.Packs .titleDark span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+}
 
+.Packs .titleDark h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #11252d;
+}
 
+.Packs .item [class*="icon"] {
+    font-size: 75px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
 
+.Packs .item .black {
+    font-size: 16px;
+    font-weight: bold;
+    color: #102831;
+    background-color: #2baf68;
+}
 
+.Packs .item span {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
 
+.Packs .item2 .black {
+    font-size: 16px;
+    font-weight: bold;
+    color: #102831;
+    background-color: #ceecdc;
+}
 
+.Packs .item2 span {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #ceecdc;
+}
 
+.Packs .item3 [class*="icon"] {
+    font-size: 40px;
+    color: #ffc638;
+}
 
+.Packs .item3 .one {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+}
 
+.Packs .item3 .two {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #11252d;
+}
 
+.calculation1 {
+    background-color: #f0f1f1;
+}
 
+.calculation1 label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #11252d;
+}
 
+.calculation1 input {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #11252d;
+}
 
+.calculation1 select {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
 
+.calculation1 .common {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #2baf68;
+}
 
+.calculation1 .sum {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #000000;
+}
 
+.calculation1 .btnYellow {
+    font-size: 16px;
+    line-height: 36px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffc638;
+}
+
+.calculation1 .right .one {
+    font-size: 18px;
+    line-height: 65px;
+    font-weight: bold;
+    color: #2baf68;
+}
+
+.calculation1 .right .two {
+    font-size: 18px;
+    line-height: 65px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.partnersInvest {
+    background-color: #2baf68;
+}

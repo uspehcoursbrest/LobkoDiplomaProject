@@ -28,7 +28,6 @@ header .socItem a {
     font-size: 16px;
     color: #102831;
     text-decoration: none;
-    background-color: #ffc638;
 }
 
 header .time {
@@ -43,7 +42,6 @@ header .logReg a {
     line-height: 36px;
     color: #11252d;
     text-decoration: none;
-    background-color: #ffc638;
 }
 
 header .infoItem a {
@@ -52,7 +50,6 @@ header .infoItem a {
     color: #11252d;
     text-decoration: none;
     font-weight: 700;
-    background-color: #ffc638;
 }
 
 header .infoItem a:visited {
@@ -238,10 +235,13 @@ header .infoItem a:hover {
     color: #ffc638;
 }
 
+.packages .option {
+    background-color: #2baf68;
+}
+
 .packages .item [class*="icon"] {
     font-size: 75px;
     color: #ffc638;
-    background-color: #2baf68;
 }
 
 .packages .item .black {
@@ -543,19 +543,19 @@ footer .copyright {
     color: #102831;
 }
 
-.Banner :nth-child {
+.banner2 :nth-child {
     width: 327px;
     height: 1916px;
 }
 
-.Banner {
+.banner2 {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.Banner .titInvest {
+.banner2 .titInvest {
     font-size: 90px;
     line-height: 100px;
     font-weight: bold;

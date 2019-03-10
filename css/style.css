@@ -25,7 +25,7 @@ ul {
 }
 
 header .socItem a {
-    font-size: 16px;
+    font-size: 20px;
     color: #102831;
     text-decoration: none;
 }
@@ -38,10 +38,16 @@ header .time {
 }
 
 header .logReg a {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 36px;
     color: #11252d;
     text-decoration: none;
+}
+
+header .logReg .one {
+    font-size: 13px;
+    line-height: 36px;
+    color: #11252d;
 }
 
 header .infoItem a {
@@ -154,7 +160,7 @@ header .infoItem a:hover {
 }
 
 .advantages .item .icon-head {
-    font-size: 112px;
+    font-size: 110px;
     line-height: 111px;
     color: #ffc638;
 }
@@ -180,8 +186,13 @@ header .infoItem a:hover {
 }
 
 .portfolio .catalog span {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.portfolio .catalog .one {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 30px;
     color: #ffffff;
 }
 
@@ -240,7 +251,7 @@ header .infoItem a:hover {
 }
 
 .packages .item [class*="icon"] {
-    font-size: 75px;
+    font-size: 65px;
     color: #ffc638;
 }
 
@@ -484,14 +495,12 @@ header .infoItem a:hover {
 }
 
 footer .icon-point {
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 25px;
     color: #ffc638;
 }
 
 footer .icon-envelope {
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 25px;
     color: #ffc638;
 }
 
@@ -526,7 +535,7 @@ footer .infoItem a {
 }
 
 footer .socItem a {
-    font-size: 16px;
+    font-size: 20px;
     color: #102831;
     text-decoration: none;
     background-color: #ffc638;
@@ -562,103 +571,110 @@ footer .copyright {
     color: #ffffff;
 }
 
-.Packs .tumbNail {
+.packet .tumbNail {
     font-size: 20px;
     line-height: 40px;
     font-weight: normal;
     color: #11252d;
 }
 
-.Packs .icon-screen {
+.packet .icon-screen {
     font-size: 80px;
     color: #ffc638;
 }
 
-.Packs .icon-coins {
+.packet .icon-coins {
     font-size: 80px;
     color: #ffc638;
 }
 
-.Packs .icon-graph {
+.packet .icon-graph {
     font-size: 80px;
     color: #ffc638;
 }
 
-.Packs .icon-hand {
+.packet .icon-hand {
     font-size: 80px;
     color: #ffc638;
 }
 
-.Packs .items .one {
+.packet .items .one {
     font-size: 18px;
     font-weight: bold;
     line-height: 50px;
     color: #2baf68;
 }
 
-.Packs .items .textDark {
+.packet .items .textDark {
     font-size: 14px;
     line-height: 22px;
     color: #11252d;
 }
 
-.Packs .titleDark span {
+.packet .titleDark span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
 }
 
-.Packs .titleDark h3 {
+.packet .titleDark h3 {
     font-size: 40px;
     line-height: 50px;
     font-weight: bold;
     color: #11252d;
 }
 
-.Packs .item [class*="icon"] {
+.packet .packone .item {
+    background-color: #2baf68;
+}
+
+.packet .item [class*="icon"] {
     font-size: 75px;
     color: #ffffff;
-    background-color: #2baf68;
 }
 
-.Packs .item .black {
+.packet .item .black {
     font-size: 16px;
     font-weight: bold;
     color: #102831;
-    background-color: #2baf68;
 }
 
-.Packs .item span {
+.packet .item span {
     font-size: 25px;
     color: #ffffff;
+}
+
+.packtwo .item {
     background-color: #2baf68;
 }
 
-.Packs .item2 .black {
+.packtwo .item2 {
+    background-color: #ceecdc;
+}
+
+.packet .item2 .black {
     font-size: 16px;
     font-weight: bold;
     color: #102831;
-    background-color: #ceecdc;
 }
 
-.Packs .item2 span {
+.packet .item2 span {
     font-size: 25px;
     color: #ffffff;
-    background-color: #ceecdc;
 }
 
-.Packs .item3 [class*="icon"] {
+.packet .item3 [class*="icon"] {
     font-size: 40px;
     color: #ffc638;
 }
 
-.Packs .item3 .one {
+.packet .item3 .one {
     font-size: 16px;
     line-height: 26px;
     color: #11252d;
 }
 
-.Packs .item3 .two {
+.packet .item3 .two {
     font-size: 16px;
     line-height: 26px;
     font-weight: bold;
@@ -725,6 +741,5 @@ footer .copyright {
     color: #000000;
 }
 
-.partnersInvest {
-    background-color: #2baf68;
-}
+
+

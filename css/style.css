@@ -24,10 +24,40 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.topLine {
+    width: 70%;
+    display: inline-block;
+}
+
+.topLine .socItem {
+    display: inline-block;
+    text-align: center;
+}
+
+.topLine .socItem li {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.topLine .socItem li + li {
+    margin-left: 35px;
+}
+
 header .socItem a {
     font-size: 20px;
     color: #102831;
     text-decoration: none;
+}
+
+.topLine .time {
+    display: inline-block;
+    padding: 5px 15px 5px 2px;
 }
 
 header .time {
@@ -35,6 +65,16 @@ header .time {
     line-height: 36px;
     color: #ffffff;
     background-color: #2baf68;
+    margin-left: 105px;
+}
+
+.logReg {
+    display: inline-block;
+    padding-left: 80px;
+}
+
+.logReg .one{
+    margin-right: 30px;
 }
 
 header .logReg a {
@@ -48,6 +88,15 @@ header .logReg .one {
     font-size: 13px;
     line-height: 36px;
     color: #11252d;
+    text-decoration: underline;
+}
+
+.infoItem li {
+    display: inline-block;
+}
+
+.infoItem li + li {
+    margin-left: 50px;
 }
 
 header .infoItem a {
@@ -56,6 +105,7 @@ header .infoItem a {
     color: #11252d;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 header .infoItem a:visited {
@@ -74,6 +124,13 @@ header .infoItem a:hover {
     font-weight: 700;
 }
 
+.logo {
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+}
+
 .banner :nth-child {
     width: 1920px;
     height: 910px;
@@ -87,10 +144,13 @@ header .infoItem a:hover {
     background-position: center;
 }
 
+.banner .titleLight {
+    padding-top: 285px;
+}
+
 .banner .titleLight span {
     font-size: 40px;
     line-height: 80px;
-    background-position: left center;
     color: #ffffff;
 }
 
@@ -99,6 +159,12 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 100px;
     color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner .btnGreen {
+    padding-top: 80px;
+    padding-right: 380px;
 }
 
 .banner a {
@@ -107,6 +173,7 @@ header .infoItem a:hover {
     color: #ffffff;
     background-color: #2baf68;
     text-decoration: none;
+    padding: 20px 50px 20px 50px;
 }
 
 .portfolio {
@@ -447,6 +514,20 @@ header .infoItem a:hover {
     color: #ffb600;
 }
 
+.news .titleDark {
+    display: inline-block;
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+.news a {
+    display: inline-block;
+    float: right;
+    padding: 10px 45px;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+
 .news {
     background-color: #f0f1f1;
 }
@@ -472,22 +553,47 @@ header .infoItem a:hover {
     background-color: #ffc638;
 }
 
-.news .payments .one {
+
+
+.news .paymentsOne .one {
     font-size: 13px;
     line-height: 70px;
     color: #ffffff;
     background-color: #2baf68;
 }
 
-.news .payments .two {
+.news .paymentsOne .two {
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
     color: #102831;
 }
 
+.news .paymentsTwo .one {
+    font-size: 13px;
+    line-height: 70px;
+    color: #ffffff;
+    background-color: #2baf68;
+}
+
+.news .paymentsTwo .two {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #102831;
+}
+
+.partners li {
+    display: inline-block;
+}
+
+.partners li + li {
+    margin-left: 50px;
+}
+
 .partners {
     background-color: #2baf68;
+    padding: 70px 55px;
 }
 
 .footer {

@@ -165,6 +165,7 @@ header .infoItem a:hover {
 .banner .btnGreen {
     padding-top: 80px;
     padding-right: 380px;
+    font-weight: bold;
 }
 
 .banner a {
@@ -174,6 +175,30 @@ header .infoItem a:hover {
     background-color: #2baf68;
     text-decoration: none;
     padding: 20px 50px 20px 50px;
+}
+
+.portfolio .descrip {
+    width: 30%;
+    float: left;
+}
+
+.portfolio .text {
+    width: 70%;
+    float: right;
+    margin-top: 135px;
+}
+
+.portfolio .tumbNail {
+    margin-top: 45px;
+}
+
+.portfolio .titleDark {
+    margin-top: 125px;
+    text-transform: uppercase;
+}
+
+.portfolio .btnYellow {
+    margin-top: 105px;
 }
 
 .portfolio {
@@ -226,6 +251,48 @@ header .infoItem a:hover {
     background-position: center;
 }
 
+.advantages {
+    margin-top: 105px;
+}
+
+.advantages .support {
+    width: 70%;
+    float: left;
+}
+
+.advantages .item {
+    margin-top: 145px;
+    padding-left: 75px;
+}
+
+.advantages .tecSup {
+    margin-top: 65px;
+    padding-left: 75px;
+    text-transform: uppercase;
+}
+
+.advantages .textLight {
+    margin-top: 65px;
+    padding-left: 75px;
+}
+
+.advantages .catalog {
+    width: 30%;
+    float: right;
+    padding: 45px 50px;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.advantages .catalog li {
+    display: inline-block;
+}
+
+.advantages .catalog .one {
+    float: right;
+    margin-left: 45px;
+}
+
 .advantages .item .icon-head {
     font-size: 110px;
     line-height: 111px;
@@ -237,6 +304,12 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 50px;
     color: #ffffff;
+}
+
+.portfolio .btnYellow  a{
+    margin-top: 105px;
+    padding: 20px 50px;
+    font-weight: bold;
 }
 
 .portfolio .textLight {
@@ -261,6 +334,7 @@ header .infoItem a:hover {
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .packages :nth-child {
@@ -276,10 +350,39 @@ header .infoItem a:hover {
     background-position: center;
 }
 
+.packages {
+    margin-top: 120px;
+}
+
+.packages .left {
+    width: 50%;
+    float: left;
+}
+
+.packages .left .title {
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+
+.packages .left .optimum {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.packages .left .items {
+    display: block;
+    margin-bottom: 45px;
+}
+
+.packages .option {
+    float: right;
+}
+
 .packages .title span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
+    font-weight: bold;
 }
 
 .packages .title h1 {
@@ -294,6 +397,7 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 50px;
     color: #ffc638;
+    text-transform: uppercase;
 }
 
 .packages .items [class*="icon"] {
@@ -337,6 +441,24 @@ header .infoItem a:hover {
 
 .calculation {
     background-color: #2b3f44;
+}
+
+.calculation {
+    margin-top: 130px;
+}
+
+.calculation .down {
+    display: inline-block;
+}
+
+.calculation .refer {
+    padding: 20px 40px;
+    text-transform: uppercase;
+}
+
+.calculation .per {
+    padding: 15px 30px;
+
 }
 
 .calculation label {
@@ -407,10 +529,20 @@ header .infoItem a:hover {
     background-color: #ffffff;
 }
 
+.results {
+    margin-top: 120px;
+}
+
+.results p {
+    margin-top: 50px;
+}
+
 .results span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .results h1 {
@@ -418,6 +550,7 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 50px;
     color: #11252d;
+    text-transform: uppercase;
 }
 
 .results p {
@@ -437,6 +570,19 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.steps {
+    margin-top: 110px;
+}
+
+.steps .item {
+    float: left;
+    padding: 120px 20px;
+}
+
+.steps .left .item {
+    padding-bottom: 50px;
 }
 
 .steps .item .icon-screen {
@@ -528,6 +674,8 @@ header .infoItem a:hover {
     text-transform: uppercase;
 }
 
+.news 
+
 .news {
     background-color: #f0f1f1;
 }
@@ -552,8 +700,6 @@ header .infoItem a:hover {
     text-decoration: none;
     background-color: #ffc638;
 }
-
-
 
 .news .paymentsOne .one {
     font-size: 13px;
@@ -600,6 +746,54 @@ header .infoItem a:hover {
     background-color: #102831;
 }
 
+footer .wrap {
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+}
+
+footer .paper {
+    display: inline-block;
+}
+
+footer .contacts {
+    display: inline-block;
+    margin-left: 75px;
+}
+
+footer .contacts span {
+    margin-right: 20px;
+}
+
+footer .infoItem {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+footer .infoItem li {
+    display: block;
+}
+
+footer .logo {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer .socItem {
+    display: block;
+    background-color: #ffc638
+}
+
+footer .socItem li {
+    display: inline-block;
+    float: right;
+}
+
+footer .socItem li + li {
+    margin-right: 35px;
+}
+
 footer .icon-point {
     font-size: 25px;
     color: #ffc638;
@@ -642,9 +836,8 @@ footer .infoItem a {
 
 footer .socItem a {
     font-size: 20px;
-    color: #102831;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #ffc638;
 }
 
 footer .copyright {

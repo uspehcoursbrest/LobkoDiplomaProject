@@ -652,21 +652,23 @@ header .infoItem a:hover {
 }
 
 .news .titleDark {
-    display: inline-block;
-    margin-top: 90px;
+    width: 80%;
+    float: left;
+    margin-top: 120px;
     text-transform: uppercase;
 }
 
 .news a {
-    display: inline-block;
+    width: 20%;
     float: right;
     padding: 10px 45px;
-    margin-top: 130px;
+    margin-top: 155px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .news {
-    background-color: #f0f1f1;
+    background-color: #f0f1f1
 }
 
 .news .allNews span {
@@ -690,55 +692,79 @@ header .infoItem a:hover {
     background-color: #ffc638;
 }
 
-.news .paymentsOne .one {
-    font-size: 13px;
-    line-height: 70px;
-    color: #ffffff;
-    background-color: #2baf68;
+.perPay .first {
+    display: inline-block;
+    margin-top: 70px;
+    padding-right: 44px;
 }
 
-.news .paymentsOne .two {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 30px;
-    color: #102831;
+.perPay .second {
+    display: inline-block;
+    margin-top: 70px;
 }
 
-.news .paymentsTwo .one {
-    font-size: 13px;
-    line-height: 70px;
-    color: #ffffff;
-    background-color: #2baf68;
+.payDoub {
+    width: 278px;
+    height: 269px;
+    float: left;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
-.news .paymentsTwo .two {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 30px;
-    color: #102831;
-}
-
-.partners li {
+.perPay .image {
     display: inline-block;
 }
 
-.partners li + li {
-    margin-left: 50px;
+.news .payDoub .one {
+    font-size: 13px;
+    line-height: 70px;
+    color: #ffffff;
+    background-color: #2baf68;
+    padding: 10px 0;
+    padding-left: 14px;
+    padding-right: 24px;
+}
+
+.news .payDoub .two {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #102831;
+
+}
+
+.friends {
+    position: relative;
+    z-index: 1;
+    bottom: -85px;
 }
 
 .partners {
-    background-color: #2baf68;
-    padding: 70px 55px;
+    display: table;
+    width: 1170px;
+    height: 170px;
+    padding: 65px 55px;
+    margin-top: 137px;
+}
+
+.partners li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 25px;
 }
 
 .footer {
+    position: absolute;
+    z-index: -1;
     background-color: #102831;
 }
 
 footer .wrap {
     width: 100%;
     float: left;
-    margin-top: 70px;
+    margin-top: 140px;
 }
 
 footer .paper {

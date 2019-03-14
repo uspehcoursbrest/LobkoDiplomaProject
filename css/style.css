@@ -46,7 +46,7 @@ ul {
 }
 
 .topLine .socItem li + li {
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 header .socItem a {
@@ -57,20 +57,21 @@ header .socItem a {
 
 .topLine .time {
     display: inline-block;
-    padding: 5px 15px 5px 2px;
 }
 
 header .time {
     font-size: 20px;
     line-height: 36px;
+    width: 125px;
+    height: 22px;
     color: #ffffff;
     background-color: #2baf68;
-    margin-left: 105px;
+    margin-left: 106px;
 }
 
 .logReg {
     display: inline-block;
-    padding-left: 80px;
+    padding-left: 65px;
 }
 
 .logReg .one{
@@ -142,10 +143,11 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -10px;
 }
 
 .banner .titleLight {
-    padding-top: 285px;
+    padding-top: 280px;
 }
 
 .banner .titleLight span {
@@ -163,7 +165,7 @@ header .infoItem a:hover {
 }
 
 .banner .btnGreen {
-    padding-top: 80px;
+    margin-top: 55px;
     padding-right: 380px;
     font-weight: bold;
 }
@@ -180,25 +182,21 @@ header .infoItem a:hover {
 .portfolio .descrip {
     width: 30%;
     float: left;
+    padding-top: 120px;
 }
 
 .portfolio .text {
     width: 70%;
     float: right;
-    margin-top: 135px;
+    padding-top: 135px;
 }
 
 .portfolio .tumbNail {
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .portfolio .titleDark {
-    margin-top: 125px;
     text-transform: uppercase;
-}
-
-.portfolio .btnYellow {
-    margin-top: 105px;
 }
 
 .portfolio {
@@ -217,12 +215,18 @@ header .infoItem a:hover {
     color: #11252d;
 }
 
+.portfolio .btnYellow {
+    margin-top: 105px;
+}
+
 .portfolio .descrip a {
     font-size: 16px;
     line-height: 36px;
     color: #11252d;
     background-color: #ffc638;
     text-decoration: none;
+    font-weight: bold;
+    padding: 20px 50px;
 }
 
 .portfolio .textDark {
@@ -256,8 +260,6 @@ header .infoItem a:hover {
 }
 
 .advantages .support {
-    width: 70%;
-    float: left;
 }
 
 .advantages .item {
@@ -276,23 +278,6 @@ header .infoItem a:hover {
     padding-left: 75px;
 }
 
-.advantages .catalog {
-    width: 30%;
-    float: right;
-    padding: 45px 50px;
-    display: inline-block;
-    margin: 50px 0;
-}
-
-.advantages .catalog li {
-    display: inline-block;
-}
-
-.advantages .catalog .one {
-    float: right;
-    margin-left: 45px;
-}
-
 .advantages .item .icon-head {
     font-size: 110px;
     line-height: 111px;
@@ -306,22 +291,28 @@ header .infoItem a:hover {
     color: #ffffff;
 }
 
-.portfolio .btnYellow  a{
-    margin-top: 105px;
-    padding: 20px 50px;
-    font-weight: bold;
-}
-
-.portfolio .textLight {
+.advantages .textLight {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
 }
 
+.catalog {
+    width: 360px;
+    height: 465px;
+}
+
+.catalog {
+    position: relative;
+    z-index: 2;
+    right: -840px;
+
+}
+
 .portfolio .catalog a {
     font-size: 18px;
     line-height: 26px;
-    color: #ffffff;
+    color: #999999;
     text-decoration: none;
 }
 
@@ -673,8 +664,6 @@ header .infoItem a:hover {
     margin-top: 130px;
     text-transform: uppercase;
 }
-
-.news 
 
 .news {
     background-color: #f0f1f1;

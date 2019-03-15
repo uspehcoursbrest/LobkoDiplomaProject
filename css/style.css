@@ -1150,45 +1150,115 @@ footer .copyright {
     color: #11252d;
 }
 
-.calculation1 {
-    background-color: #f0f1f1;
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
+
+
+.calcul .left {
+    width: 33.3333%;
+    float: left;
+    display: block;
 }
 
-.calculation1 label {
+.calcul .inputDark {
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    margin-bottom: 22px;
+}
+
+.calcul .inputDark input {
+    width: 321px;
+    height: 52px;
+}
+
+.calcul .selectDark {
+    display: block;
+    padding-left: 40px;
+}
+
+.calcul .selectDark select {
+    width: 321px;
+    height: 52px;
+}
+
+.calcul .middle {
+    width: 33.3333%;
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.calcul .middle .sum {
+    padding-top: 30px;
+}
+
+.calcul .middle .btnGreen a {
+    padding-top: 30px;
+}
+
+.calcul .right {
+    width: 33.3333%;
+    display: table;
+    float: left;
+    padding-top: 39px;
+    text-align: left;
+}
+
+.calcul .right li {
+    display: table-row;
+    height: 48px;
+}
+
+.calcul .right li span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.calcul .right .one {
+    padding-left: 55px;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
+
+.calcul label {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     color: #11252d;
 }
 
-.calculation1 input {
+.calcul input {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     color: #11252d;
 }
 
-.calculation1 select {
+.calcul select {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
 }
 
-.calculation1 .common {
+.calcul .common {
     font-size: 18px;
     line-height: 50px;
     font-weight: bold;
     color: #2baf68;
 }
 
-.calculation1 .sum {
+.calcul .sum {
     font-size: 48px;
     line-height: 50px;
     font-weight: bold;
     color: #000000;
 }
 
-.calculation1 .btnYellow {
+.calcul .btnYellow {
     font-size: 16px;
     line-height: 36px;
     color: #000000;
@@ -1196,19 +1266,100 @@ footer .copyright {
     background-color: #ffc638;
 }
 
-.calculation1 .right .one {
+.calcul .right .one {
     font-size: 18px;
     line-height: 65px;
     font-weight: bold;
     color: #2baf68;
 }
 
-.calculation1 .right .two {
+.calcul .right .two {
     font-size: 18px;
     line-height: 65px;
     font-weight: bold;
     color: #000000;
 }
+
+.choise {
+    position: relative;
+    z-index: 1;
+    bottom: -85px;
+}
+
+.choise .partners {
+    display: table;
+    width: 1170px;
+    height: 170px;
+    padding: 65px 55px;
+    margin-top: 137px;
+}
+
+.choise .partners li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 25px;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
+
+.infoSteps .item {
+    width: 25%;
+    float: left;
+    display: block;
+    margin-top: 123px;
+    margin-bottom: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.infoSteps .image {
+    margin-bottom: 95px;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
+
+.infoSteps .item .icon-screen {
+    font-size: 80px;
+    color: #ffc638;
+}
+
+.infoSteps .item .icon-coins {
+    font-size: 80px;
+    color: #ffc638;
+}
+
+.infoSteps .item .icon-graph {
+    font-size: 80px;
+    color: #ffc638;
+}
+
+.infoSteps .item .icon-hand {
+    font-size: 80px;
+    color: #ffc638;
+}
+
+.infoSteps .item .one {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.infoSteps .item .two {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #2baf68;
+}
+
+.infoSteps .item .textLight {
+    font-size: 14px;
+    line-height: 30px;
+    color: #11252d;
+}
+
+
 
 
 

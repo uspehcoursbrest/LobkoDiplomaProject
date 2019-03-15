@@ -13,36 +13,44 @@
     <div class="container">
         <div class="topLine">
             <div class="socItem">
-                <ul>
-                    <li><a href="#"><span class="icon-Mail"></span></a></li>
-                    <li><a href="#"><span class="icon-FaceBook"></span></a></li>
-                    <li><a href="#"><span class="icon-Twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-VK"></span></a></li>
-                    <li><a href="#"><span class="icon-YouTube"></span></a>
-                    </li>
-                </ul>
+                <div class="point">
+                    <ul>
+                        <li><a href="#"><span class="icon-Mail"></span></a></li>
+                        <li><a href="#"><span class="icon-FaceBook"></span></a></li>
+                        <li><a href="#"><span class="icon-Twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-VK"></span></a></li>
+                        <li><a href="#"><span class="icon-YouTube"></span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="time">
-                <span class="icon-time"></span>
-                <span>20:45:39</span>
+                <div class="point" style="background-color: #2baf68">
+                    <span class="icon-time"></span>
+                    <span>20:45:39</span>
+                </div>
             </div>
             <div class="logReg">
-                <a href="#"><span class="icon-lock"><span class="one">ВХОД</span></span></a>
-                <a href="#"><span class="icon-keys"><span class="one">РЕГИСТРАЦИЯ</span></span></a>
+                <div class="point">
+                    <a href="#"><span class="icon-lock"></span><span class="one"> ВХОД</span></a>
+                    <a href="#"><span class="icon-keys"></span><span class="one"> РЕГИСТРАЦИЯ</span></a>
+                </div>
             </div>
             <div class="infoItem">
-                <ul>
-                    <li><a href="#" class="main">Главная</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Карьера</a></li>
-                    <li><a href="#">Инвестиции</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
+                <div class="">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Карьера</a></li>
+                        <li><a href="#">Инвестиции</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="logo">
-                <img src="img/png/logo.png" alt="logo">
-            </div>
+        </div>
+        <div class="logo">
+            <img src="img/png/logo.png" alt="logo">
         </div>
     </div>
 </header>
@@ -200,91 +208,99 @@
             </div>
         </div>
     </div>
-    <div class="calculation1" style="background-color: #f0f1f1">
-        <div class="container">
-            <div class="left">
-                <div class="inputDark">
-                    <label for="input sum:">Введите сумму:</label>
-                    <input type="text" name="Введите сумму:" id="input sum:" placeholder="$  250">
-                </div>
-                <div class="selectDark">
-                    <label for="choise packs">Выберите пакет:</label>
-                    <select name="Выберите пакет:" id="choise packs">
-                        <option value="Pack 1">START</option>
-                        <option value="Pack 2">LUXURY</option>
-                        <option value="Pack 3">LITE</option>
-                        <option value="Pack 4">PREMIUM</option>
-                        <option value="Pack 5">OPTIMUM</option>
-                        <option value="Pack 6">EXCLUSIVE</option>
-                    </select>
-                </div>
+    <div class="calculation clear" style="background-color: #2b3f44">
+        <div class="container"></div>
+        <div class="left clear">
+            <div class="inputDark">
+                <label for="input sum:">Введите сумму:</label>
+                <input type="text" name="Введите сумму:" id="input sum:" placeholder="$  250">
             </div>
-            <div class="middle">
-                <span class="common">общая прибыль за год</span>
-                <span class="sum">1642.50$</span>
-                <a href="#" class="btnYellow">инвестировать</a>
+            <div class="selectDark">
+                <label for="choise packs">Выберите пакет:</label>
+                <select name="Выберите пакет:" id="choise packs">
+                    <option value="Pack 1">START</option>
+                    <option value="Pack 2">LUXURY</option>
+                    <option value="Pack 3">LITE</option>
+                    <option value="Pack 4">PREMIUM</option>
+                    <option value="Pack 5">OPTIMUM</option>
+                    <option value="Pack 6">EXCLUSIVE</option>
+                </select>
             </div>
-            <ul class="right">
-                <li><span class="one">Доход за сутки:</span><span class="two">4.50$</span>
-                    <span class="one">Доход за Месяц:</span><span class="two">135.00$</span>
-                    <span class="one">Доход за 6 Месяцев:</span><span class="two">819.00$</span>
-                </li>
-            </ul>
-            <div class="down">
-                <span class="refer">Реферальная программа:</span>
-                <span class="per">6% - 8% - 10% - 11% - 12,5% - 13,5% - 14,5% - 15% - 15,5%</span></div>
+        </div>
+        <div class="middle clear">
+            <span class="common">общая прибыль за год</span>
+            <span class="sum">1642.50$</span><br>
+            <a href="#" class="btnGreen">инвестировать</a>
+        </div>
+        <ul class="right clear">
+            <li>
+                <span class="one">Доход за сутки:</span><span class="two">4.50$</span>
+            </li>
+            <li>
+                <span class="one">Доход за Месяц:</span><span class="two">135.00$</span>
+            </li>
+            <li>
+                <span class="one">Доход за 6 Месяцев:</span><span class="two">819.00$</span>
+            </li>
+        </ul>
+        <div class="down clear">
+            <span class="refer">Реферальная программа:</span>
+            <span class="per">6% - 8% - 10% - 11% - 12,5% - 13,5% - 14,5% - 15% - 15,5%</span>
         </div>
     </div>
 </div>
-<div class="friends" style="background-color: #f0f1f1">
-    <div class="container">
-        <div class="partnersInvest" style="background-color: #2baf68">
-            <ul>
-                <li><img src="img/png/partner1.png" alt="par1"></li>
-                <li><img src="img/png/partner2.png" alt="par2"></li>
-                <li><img src="img/png/partner3.png" alt="par3"></li>
-                <li><img src="img/png/partner4.png" alt="par4"></li>
-                <li><img src="img/png/partner5.png" alt="par5"></li>
-            </ul>
-        </div>
+</div>
+<div class="friends">
+    <div class="partners" style="background-color: #2baf68">
+        <ul>
+            <li><img src="img/png/partner1.png" alt="par1"></li>
+            <li><img src="img/png/partner2.png" alt="par2"></li>
+            <li><img src="img/png/partner3.png" alt="par3"></li>
+            <li><img src="img/png/partner4.png" alt="par4"></li>
+            <li><img src="img/png/partner5.png" alt="par5"></li>
+        </ul>
     </div>
 </div>
 <Footer style="background-color: #102831">
     <div class="container">
-        <div class="paper">
-            <img src="img/jpg/sertificate.jpg" alt="pap">
-        </div>
-        <div class="contacts">
-            <div class="adress">
-                <p class="textLight"><span class="icon-point"></span>Adress: 101, Rose Street South Lane, Edinburgh,
-                    EH2 3JG, SCOTLAND Company number: SC587986</p>
+        <div class="wrap">
+            <div class="paper">
+                <img src="img/jpg/sertificate.jpg" alt="pap">
             </div>
-            <div class="email">
-                <span class="icon-envelope"></span>
-                <span class="post">E-mail:</span>
-                <a href="#" class="link1">support@onebetinvest.com </a>
+            <div class="contacts">
+                <div class="adress">
+                    <p class="textLight"><span class="icon-point"></span>Adress:<br>101, Rose Street South Lane,<br>Edinburgh,
+                        EH2 3JG, SCOTLAND<br>Company number:<br>SC587986</p>
+                </div>
+                <div class="email">
+                    <span class="icon-envelope"></span>
+                    <span class="post">E-mail:</span><br>
+                    <a href="#" class="link1">support@onebetinvest.com </a>
+                </div>
+            </div>
+            <div class="infoItem">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Инвестиции</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="img/png/logo.png" alt="logo">
             </div>
         </div>
-        <div class="infoItem">
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Карьера</a></li>
-                <li><a href="#">Инвестиции</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Контакты</a></li>
+        <div class="soc clear">
+            <ul class="socItem" style="background-color: #ffc638">
+                <li><a href="#"><span class="icon-Mail"></span></a></li>
+                <li><a href="#"><span class="icon-FaceBook"></span></a></li>
+                <li><a href="#"><span class="icon-Twitter"></span></a></li>
+                <li><a href="#"><span class="icon-VK"></span></a></li>
+                <li><a href="#"><span class="icon-YouTube"></span></a>
             </ul>
         </div>
-        <div class="logo">
-            <img src="img/png/logo.png" alt="logo">
-        </div>
-        <ul class="socItem" style="background-color: #ffc638">
-            <li><a href="#"><span class="icon-Mail"></span></a></li>
-            <li><a href="#"><span class="icon-FaceBook"></span></a></li>
-            <li><a href="#"><span class="icon-Twitter"></span></a></li>
-            <li><a href="#"><span class="icon-VK"></span></a></li>
-            <li><a href="#"><span class="icon-YouTube"></span></a>
-        </ul>
         <div class="copyright" style="background-color: #ffffff">
             <span>Copyright © 2018 Onebetinvest.  Все права защищены.</span>
         </div>

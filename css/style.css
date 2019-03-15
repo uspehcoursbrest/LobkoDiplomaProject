@@ -434,26 +434,99 @@ header .infoItem a:hover {
     background-color: #2baf68;
 }
 
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
+
+.calculation .left {
+    width: 33.3333%;
+    float: left;
+    display: block;
+}
+
+.inputDark {
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    margin-bottom: 22px;
+}
+
+.inputDark input {
+    width: 321px;
+    height: 52px;
+}
+
+.selectDark {
+    display: block;
+    padding-left: 40px;
+}
+
+.selectDark select {
+    width: 321px;
+    height: 52px;
+}
+
+.calculation .middle {
+    width: 33.3333%;
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.calculation .middle .sum {
+    padding-top: 30px;
+}
+
+.calculation .middle .btnGreen a {
+    padding-top: 30px;
+}
+
+.calculation .right {
+    width: 33.3333%;
+    display: table;
+    float: left;
+    padding-top: 39px;
+    text-align: left;
+}
+
+.calculation .right li {
+    display: table-row;
+    height: 48px;
+}
+
+.calculation .right li span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.calculation .right .one {
+    padding-left: 55px;
+}
+
+.calculation .down .refer {
+    width: 30%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 70px;
+}
+
+.calculation .down .per {
+    width: 70%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    height: 55px;
+    padding-top: 8px;
+    margin-top: 70px;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
+
 .calculation {
     background-color: #2b3f44;
-}
-
-.calculation {
-    margin-top: 130px;
-}
-
-.calculation .down {
-    display: inline-block;
-}
-
-.calculation .refer {
-    padding: 20px 40px;
-    text-transform: uppercase;
-}
-
-.calculation .per {
-    padding: 15px 30px;
-
 }
 
 .calculation label {
@@ -477,12 +550,15 @@ header .infoItem a:hover {
 .calculation .common {
     font-size: 18px;
     line-height: 50px;
+    font-weight: bold;
     color: #2baf68;
+    text-transform: uppercase;
 }
 
 .calculation .sum {
     font-size: 48px;
     line-height: 50px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -490,19 +566,24 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 36px;
     color: #ffffff;
+    font-weight: bold;
     text-decoration: none;
     background-color: #2baf68;
+    text-transform: uppercase;
 }
 
 .calculation .right .one {
     font-size: 18px;
     line-height: 65px;
     color: #2baf68;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .calculation .right .two {
     font-size: 18px;
     line-height: 65px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -523,7 +604,7 @@ header .infoItem a:hover {
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА RESULTS*/
 
 .results {
-    padding-top: 115px;
+    padding-top: 300px;
     padding-bottom: 110px;
 }
 

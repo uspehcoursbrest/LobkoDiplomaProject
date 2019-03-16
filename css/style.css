@@ -306,11 +306,16 @@ header .infoItem a:hover {
     height: 465px;
 }
 
-.catalog {
+.portfolio {
     position: relative;
-    z-index: 2;
-    right: -840px;
+    z-index: -2;
+}
 
+.catalog {
+    position: absolute;
+    z-index: 2;
+    top: -50;
+    right: 0;
 }
 
 .portfolio .catalog a {
@@ -332,6 +337,8 @@ header .infoItem a:hover {
     font-weight: bold;
 }
 
+
+
 .packages :nth-child {
     width: 896px;
     height: 1916px;
@@ -343,34 +350,6 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.packages {
-    margin-top: 120px;
-}
-
-.packages .left {
-    width: 50%;
-    float: left;
-}
-
-.packages .left .title {
-    padding-top: 120px;
-    text-transform: uppercase;
-}
-
-.packages .left .optimum {
-    margin-top: 50px;
-    margin-bottom: 45px;
-}
-
-.packages .left .items {
-    display: block;
-    margin-bottom: 45px;
-}
-
-.packages .option {
-    float: right;
 }
 
 .packages .title span {
@@ -412,10 +391,6 @@ header .infoItem a:hover {
     color: #ffc638;
 }
 
-.packages .option {
-    background-color: #2baf68;
-}
-
 .packages .item [class*="icon"] {
     font-size: 65px;
     color: #ffc638;
@@ -425,16 +400,119 @@ header .infoItem a:hover {
     font-size: 16px;
     font-weight: bold;
     color: #102831;
-    background-color: #2baf68;
 }
 
 .packages .item span {
     font-size: 16px;
     color: #ffffff;
-    background-color: #2baf68;
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
+
+.packages {
+    margin-top: 120px;
+}
+
+.packages .left {
+    width: 50%;
+    float: left;
+}
+
+.packages .left .title {
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+
+.packages .left .optimum {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.packages .left .items {
+    display: block;
+    margin-bottom: 45px;
+}
+
+.packages .option {
+    float: right;
+}
+
+.option {
+    width: 50%;
+    float: left;
+}
+
+.option .up .item {
+    display: block;
+}
+
+.option .one {
+    display: inline-block;
+    margin-top: 120px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.option .one span {
+    margin-top: 10px;
+}
+
+.option .two {
+    display: inline-block;
+    margin-top: 120px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.option .three {
+    display: inline-block;
+    margin-top: 120px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.option .down .item {
+    display: block;
+}
+
+.option .four {
+    display: inline-block;
+    margin-top: 40px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.option .five {
+    display: inline-block;
+    margin-top: 40px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.option .six {
+    display: inline-block;
+    margin-top: 40px;
+    width: 190px;
+    height: 200px;
+    background-color: #2baf68;
+    text-align: center;
+    padding-top: 30px;
+}
 
 .calculation .left {
     width: 33.3333%;

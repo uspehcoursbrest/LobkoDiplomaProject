@@ -304,7 +304,7 @@ header .infoItem a:hover {
     height: 465px;
     padding: 45px 0;
     position: absolute;
-    top: 0;
+    top: -15;
     right: 0;
 }
 

@@ -246,13 +246,16 @@ header .infoItem a:hover {
     font-weight: bold;
 }
 
+.support {
+    width: 985px;
+}
+
 .advantages :nth-child {
     width: 570px;
     height: 985px;
 }
 
 .advantages {
-    background: #102831;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -261,9 +264,7 @@ header .infoItem a:hover {
 
 .advantages {
     margin-top: 105px;
-}
-
-.advantages .support {
+    position: relative;
 }
 
 .advantages .item {
@@ -301,21 +302,25 @@ header .infoItem a:hover {
     color: #ffffff;
 }
 
+
 .catalog {
     width: 360px;
     height: 465px;
-}
-
-.portfolio {
-    position: relative;
-    z-index: -2;
-}
-
-.catalog {
+    padding: 45px 0;
     position: absolute;
-    z-index: 2;
-    top: -50;
+    top: 0;
     right: 0;
+}
+
+.catalog .line {
+    display: inline-block;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.catalog .one {
+    display: inline-block;
+    text-align: left;
 }
 
 .portfolio .catalog a {

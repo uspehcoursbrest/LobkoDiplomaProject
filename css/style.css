@@ -37,6 +37,12 @@ ul {
     display: inline-block;
 }
 
+.socItem .point li a span {
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #102831;
+}
+
 .topLine .socItem {
     display: inline-block;
     text-align: center;
@@ -53,6 +59,11 @@ ul {
 
 .topLine .time {
     display: inline-block;
+}
+
+.time .point {
+    display: block;
+    border-radius: 23px;
 }
 
 .logReg {
@@ -93,7 +104,6 @@ header .time {
     width: 125px;
     height: 22px;
     color: #ffffff;
-    background-color: #2baf68;
     margin-left: 106px;
 }
 
@@ -177,9 +187,9 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 36;
     color: #ffffff;
-    background-color: #2baf68;
     text-decoration: none;
     padding: 20px 50px 20px 50px;
+    border-radius: 52px;
 }
 
 .portfolio .descrip {
@@ -226,10 +236,10 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 36px;
     color: #11252d;
-    background-color: #ffc638;
     text-decoration: none;
     font-weight: bold;
     padding: 20px 50px;
+    border-radius: 52px;
 }
 
 .portfolio .textDark {
@@ -418,7 +428,7 @@ header .infoItem a:hover {
 }
 
 .packages .left {
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
@@ -443,7 +453,7 @@ header .infoItem a:hover {
 }
 
 .option {
-    width: 50%;
+    width: 60%;
     float: left;
 }
 
@@ -452,19 +462,27 @@ header .infoItem a:hover {
 }
 
 .option .planItem {
-    display:block;
-    margin-top: 120px;
-    height: 200px;
+    display:inline-block;
+    margin-top: 135px;
+    margin-left: 30px;
     width: 190px;
+    height: 197px;
     text-align: center;
+    vertical-align: middle;
     float:left;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .option .item {
+    display: inline-block;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.option .item span {
     display: block;
-    padding-top: 30px;
+
 }
 
 .calculation .left {
@@ -505,15 +523,16 @@ header .infoItem a:hover {
     text-align: center;
 }
 
-.calculation .btnGreen {
+.calculation .btnGreen a {
     width: 250px;
     height: 53px;
     display: block;
     margin-top: 10px;
     margin-left: 50px;
+    border-radius: 52px;
 }
 
-.calculation .btnGreen {
+.calculation .btnGreen a {
     padding-top: 8px;
 }
 
@@ -598,13 +617,12 @@ header .infoItem a:hover {
     color: #ffffff;
 }
 
-.calculation .btnGreen {
+.calculation .btnGreen a {
     font-size: 16px;
     line-height: 36px;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-    background-color: #2baf68;
     text-transform: uppercase;
 }
 
@@ -841,6 +859,7 @@ header .infoItem a:hover {
     margin-top: 155px;
     text-transform: uppercase;
     text-align: center;
+    border-radius: 52px;
 }
 
 .perPay .first {
@@ -906,13 +925,12 @@ header .infoItem a:hover {
     color: #11252d;
 }
 
-.news .allNews .btnYellow {
+.news .allNews .btnYellow a {
     font-size: 16px;
     line-height: 36px;
     font-weight: bold;
     color: #102831;
     text-decoration: none;
-    background-color: #ffc638;
 }
 
 .news .payDoub .one {
@@ -923,6 +941,7 @@ header .infoItem a:hover {
     padding: 10px 0;
     padding-left: 14px;
     padding-right: 24px;
+    border-radius: 27px;
 }
 
 .news .payDoub .two {
@@ -996,7 +1015,7 @@ footer .logo {
 
 footer .socItem {
     display: block;
-    background-color: #ffc638
+    background-color: #ffc638;
 }
 
 footer .socItem li {
@@ -1052,6 +1071,8 @@ footer .socItem a {
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid #102831;
 }
 
 footer .copyright {
@@ -1453,15 +1474,16 @@ footer .copyright {
     text-align: center;
 }
 
-.calcul .btnYellow {
+.calcul .btnYellow a {
     width: 250px;
     height: 53px;
     display: block;
     margin-top: 10px;
     margin-left: 50px;
+    border-radius: 52px;
 }
 
-.calcul .btnYellow {
+.calcul .btnYellow a {
     padding-top: 8px;
 }
 
@@ -1527,13 +1549,12 @@ footer .copyright {
     color: #000000;
 }
 
-.calcul .btnYellow {
+.calcul .btnYellow a {
     font-size: 16px;
     line-height: 36px;
     color: #000000;
     font-weight: bold;
     text-decoration: none;
-    background-color: #ffc638;
     text-transform: uppercase;
 }
 

@@ -437,6 +437,11 @@ header .infoItem a:hover {
     margin-bottom: 45px;
 }
 
+.packages .items .text {
+    display: inline-block;
+    padding-left: 28px;
+}
+
 .option {
     width: 50%;
     float: left;
@@ -444,21 +449,21 @@ header .infoItem a:hover {
 
 .option .planItem .item {
     background-color: #2baf68;
-    height: 200px;
 }
 
 .option .planItem {
-    display: inline-block;
+    display:block;
     margin-top: 120px;
+    height: 200px;
     width: 190px;
     text-align: center;
-    padding-top: 30px;
     float:left;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .option .item {
+    display: block;
     padding-top: 30px;
 }
 
@@ -500,12 +505,16 @@ header .infoItem a:hover {
     text-align: center;
 }
 
-.calculation .middle .sum {
-    padding-top: 30px;
+.calculation .btnGreen {
+    width: 250px;
+    height: 53px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
-.calculation .middle .btnGreen a {
-    padding-top: 30px;
+.calculation .btnGreen {
+    padding-top: 8px;
 }
 
 .calculation .right {
@@ -553,6 +562,7 @@ header .infoItem a:hover {
 
 .calculation {
     background-color: #2b3f44;
+    margin-top: 131px;
 }
 
 .calculation label {
@@ -1055,30 +1065,46 @@ footer .copyright {
     color: #102831;
 }
 
-.banner2 :nth-child {
-    width: 327px;
-    height: 1916px;
+
+
+/*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
+
+
+/*НАЧАЛО ПОЗИЦИОНИРОВАНИЕ БЛОКА TITINVEST*/
+
+.titInvest {
+    width: 1916px;
+    height: 327px;
 }
 
-.banner2 {
+.titInvest {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -11px;
 }
 
-.banner2 .titInvest {
+.titInvest span {
     font-size: 90px;
     line-height: 100px;
     font-weight: bold;
     color: #ffffff;
 }
 
+/*КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА TITINVEST*/
+
+/*НАЧАЛО ПОЗИЦИОНИРОВАНИЯ БЛОКА PACKET*/
+
+/*INFOSTEPS*/
+
 .packet .tumbNail {
     font-size: 20px;
     line-height: 40px;
-    font-weight: normal;
     color: #11252d;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 120px;
 }
 
 .packet .icon-screen {
@@ -1101,34 +1127,78 @@ footer .copyright {
     color: #ffc638;
 }
 
-.packet .items .one {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 50px;
-    color: #2baf68;
+/*КОНЕЦ INFOSTEPS*/
+
+/*MIDDLE*/
+
+.middle .title {
+    width: 30%;
+    float: left;
+    padding-top: 120px;
 }
 
-.packet .items .textDark {
-    font-size: 14px;
-    line-height: 22px;
-    color: #11252d;
+.middle .text {
+    width: 70%;
+    float: right;
+    padding-top: 135px;
+    padding-left: 70px;
 }
 
-.packet .titleDark span {
+.middle .title span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
 }
 
-.packet .titleDark h3 {
+.middle .title h3 {
     font-size: 40px;
     line-height: 50px;
-    font-weight: bold;
     color: #11252d;
 }
 
-.packet .packone .item {
+.middle .textOne {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+    font-weight: normal;
+}
+
+.middle .textTwo {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+    font-weight: normal;
+    margin-top: 37px;
+}
+
+/*КОНЕЦ MIDDLE*/
+
+/*DOWN*/
+
+/*PACKONE*/
+
+.packet input {
+    display: none;
+}
+
+.packOne .point {
+    width: 20%;
+    float: left;
+    display: block;
+    text-align: center;
+    margin-top: 145px;
+}
+
+.packOne .item {
     background-color: #2baf68;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.packOne span {
+    display: block;
 }
 
 .packet .item [class*="icon"] {
@@ -1147,23 +1217,21 @@ footer .copyright {
     color: #ffffff;
 }
 
-.packtwo .item {
-    background-color: #2baf68;
+/*КОНЕЦ PACKONE*/
+
+/*INFO*/
+
+.packet .item3 {
+    width: 33.3333%;
+    float: left;
+    margin-top: 60px;
+    display: block;
+    padding-left: 38px;
 }
 
-.packtwo .item2 {
-    background-color: #ceecdc;
-}
-
-.packet .item2 .black {
-    font-size: 16px;
-    font-weight: bold;
-    color: #102831;
-}
-
-.packet .item2 span {
-    font-size: 25px;
-    color: #ffffff;
+.packet .icons {
+    display: inline-block;
+    padding-left: 23px;
 }
 
 .packet .item3 [class*="icon"] {
@@ -1184,158 +1252,87 @@ footer .copyright {
     color: #11252d;
 }
 
-/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
 
+/*КОНЕЦ INFO*/
 
-.calcul .left {
-    width: 33.3333%;
-    float: left;
+/*PACKTWO*/
+
+.packTwo .item {
+    background-color: #2baf68;
     display: block;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 60px;
 }
 
-.calcul .inputDark {
-    float: left;
+.packTwo .item2 {
+    background-color: #ceecdc;
     display: block;
-    padding-left: 40px;
-    padding-top: 45px;
-    margin-bottom: 22px;
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
 }
 
-.calcul .inputDark input {
-    width: 321px;
-    height: 52px;
+.packet .item2 .icon-cup {
+    margin-top: -20px;
 }
 
-.calcul .selectDark {
-    display: block;
-    padding-left: 40px;
+.packet .item2 .icon-swim {
+    margin-top: -20px;
 }
 
-.calcul .selectDark select {
-    width: 321px;
-    height: 52px;
+.packet .item2 .icon-bike {
+    margin-top: -20px;
 }
 
-.calcul .middle {
-    width: 33.3333%;
-    float: left;
-    display: block;
-    padding-left: 40px;
-    padding-top: 45px;
-    text-align: center;
-}
-
-.calcul .middle .sum {
-    padding-top: 30px;
-}
-
-.calcul .middle .btnGreen a {
-    padding-top: 30px;
-}
-
-.calcul .right {
-    width: 33.3333%;
-    display: table;
-    float: left;
-    padding-top: 39px;
-    text-align: left;
-}
-
-.calcul .right li {
-    display: table-row;
-    height: 48px;
-}
-
-.calcul .right li span {
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 20px;
-}
-
-.calcul .right .one {
-    padding-left: 55px;
-}
-
-/*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
-
-.calcul label {
+.packet .item2 .black {
     font-size: 16px;
-    line-height: 20px;
     font-weight: bold;
-    color: #11252d;
+    color: #102831;
+    margin-top: -0px;
 }
 
-.calcul input {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: bold;
-    color: #11252d;
-}
-
-.calcul select {
-    font-size: 16px;
-    line-height: 20px;
+.packet .item2 span {
+    font-size: 25px;
     color: #ffffff;
 }
 
-.calcul .common {
-    font-size: 18px;
-    line-height: 50px;
-    font-weight: bold;
-    color: #2baf68;
-}
-
-.calcul .sum {
-    font-size: 48px;
-    line-height: 50px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.calcul .btnYellow {
+.point2 .item2 .one {
     font-size: 16px;
-    line-height: 36px;
-    color: #000000;
-    text-decoration: none;
-    background-color: #ffc638;
+    line-height: 22px;
+    color: #6c8e7c;
 }
 
-.calcul .right .one {
-    font-size: 18px;
-    line-height: 65px;
-    font-weight: bold;
-    color: #2baf68;
+.packet .item2 [class*="icon"] {
+    font-size: 75px;
+    color: #ffffff;
 }
 
-.calcul .right .two {
-    font-size: 18px;
-    line-height: 65px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.choise {
-    position: relative;
-    z-index: 1;
-    bottom: -85px;
-}
-
-.choise .partners {
-    display: table;
-    width: 1170px;
-    height: 170px;
-    padding: 65px 55px;
-    margin-top: 137px;
-}
-
-.choise .partners li {
-    display: table-cell;
+.packTwo .point {
+    width: 20%;
+    float: left;
+    display: block;
     text-align: center;
-    vertical-align: middle;
-    padding: 0 25px;
 }
 
-/*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
+.packTwo .point2 {
+    width: 20%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.packTwo span {
+    display: block;
+}
+
+/*КОНЕЦ PACKTWO*/
+
+/*КОНЕЦ ПОЗИЦИОНИРОВАНИЯ БЛОКА PACKET*/
+
+
+/*НАЧАЛО ПОЗИЦИОНИРОВАНИЕ БЛОКА InfoSTEPS*/
 
 .infoSteps .item {
     width: 25%;
@@ -1351,7 +1348,7 @@ footer .copyright {
     margin-bottom: 95px;
 }
 
-/*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
+/*КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА InfoSTEPS*/
 
 .infoSteps .item .icon-screen {
     font-size: 80px;
@@ -1392,6 +1389,171 @@ footer .copyright {
     line-height: 30px;
     color: #11252d;
 }
+
+/*НАЧАЛО ПОЗИЦИОНИРОВАНИЕ БЛОКА CHOISE*/
+
+.choise {
+    position: relative;
+    z-index: 1;
+    bottom: -85px;
+}
+
+.choise .partners {
+    display: table;
+    width: 1170px;
+    height: 170px;
+    padding: 65px 55px;
+}
+
+.choise .partners li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 25px;
+}
+
+/* КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА CHOISE*/
+
+
+.calcul .left {
+    width: 33.3333%;
+    float: left;
+    display: block;
+}
+
+.inputDark {
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    margin-bottom: 22px;
+}
+
+.inputDark input {
+    width: 321px;
+    height: 52px;
+}
+
+.selectDark {
+    display: block;
+    padding-left: 40px;
+}
+
+.selectDark select {
+    width: 321px;
+    height: 52px;
+}
+
+.calcul .center {
+    width: 33.3333%;
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.calcul .btnYellow {
+    width: 250px;
+    height: 53px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.calcul .btnYellow {
+    padding-top: 8px;
+}
+
+.calcul .right {
+    width: 33.3333%;
+    display: table;
+    float: left;
+    padding-top: 39px;
+    text-align: left;
+}
+
+.calcul .right li {
+    display: table-row;
+    height: 48px;
+}
+
+.calcul .right li span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.calcul .right .one {
+    padding-left: 55px;
+}
+
+.calcul {
+    background-color: #2b3f44;
+    margin-top: 118px;
+}
+
+.calcul label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.calcul input {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.calcul select {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.calcul .pay {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #2baf68;
+    text-transform: uppercase;
+}
+
+.calcul .summa {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.calcul .btnYellow {
+    font-size: 16px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffc638;
+    text-transform: uppercase;
+}
+
+.calcul .right .one {
+    font-size: 18px;
+    line-height: 65px;
+    color: #2baf68;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.calcul .right .two {
+    font-size: 18px;
+    line-height: 65px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
 
 
 

@@ -30,11 +30,30 @@ ul {
     clear: both;
 }
 
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
+
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER*/
 
 .topLine {
     width: 70%;
     display: inline-block;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .socItem .point li a span {
@@ -161,12 +180,14 @@ header .infoItem a:hover {
 
 .banner .titleLight {
     padding-top: 280px;
+
 }
 
 .banner .titleLight span {
     font-size: 40px;
     line-height: 80px;
     color: #ffffff;
+    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .banner .titleLight h2 {
@@ -175,6 +196,7 @@ header .infoItem a:hover {
     line-height: 100px;
     color: #ffffff;
     text-transform: uppercase;
+    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .banner .btnGreen {
@@ -190,6 +212,7 @@ header .infoItem a:hover {
     text-decoration: none;
     padding: 20px 50px 20px 50px;
     border-radius: 52px;
+    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .portfolio .descrip {
@@ -265,6 +288,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .advantages {
@@ -315,6 +339,7 @@ header .infoItem a:hover {
     position: absolute;
     top: 50px;
     right: 0;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .catalog .line {
@@ -530,6 +555,7 @@ header .infoItem a:hover {
     margin-top: 10px;
     margin-left: 50px;
     border-radius: 52px;
+    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .calculation .btnGreen a {
@@ -565,6 +591,7 @@ header .infoItem a:hover {
     text-align: center;
     vertical-align: middle;
     margin-top: 70px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .calculation .down .per {
@@ -575,6 +602,7 @@ header .infoItem a:hover {
     height: 55px;
     padding-top: 8px;
     margin-top: 70px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
@@ -582,6 +610,7 @@ header .infoItem a:hover {
 .calculation {
     background-color: #2b3f44;
     margin-top: 131px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .calculation label {
@@ -594,12 +623,18 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
+    background-color: #0d1f26;
+    box-shadow: inset 3px 0px 7px 0px rgba(0,0,0,0.100);
+    border: none;
 }
 
 .calculation select {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
+    background-color: #0d1f26;
+    box-shadow: inset 3px 0px 7px 0px rgba(0,0,0,0.100);
+    border: none;
 }
 
 .calculation .common {
@@ -703,7 +738,11 @@ header .infoItem a:hover {
 }
 
 .steps .image {
-    margin-bottom: 95px;
+    padding-bottom: 90px;
+}
+
+.steps .hi {
+    border-bottom: 1px solid #dfe5e8;
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
@@ -719,13 +758,13 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .steps .item .image {
     font-size: 80px;
     color: #47c481;
 }
-
 
 .steps .item .one {
     font-size: 18px;
@@ -762,7 +801,7 @@ header .infoItem a:hover {
     margin-top: 65px;
 }
 
-.last .line li{
+.last .line li {
     display: table-row;
     height: 29px;
 }
@@ -770,6 +809,7 @@ header .infoItem a:hover {
 .last .line li span {
     display: table-cell;
     vertical-align: middle;
+    border-bottom: 1px solid #dfe5e8;
 }
 
 .last .line li .one {
@@ -880,6 +920,7 @@ header .infoItem a:hover {
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 30px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .perPay .image {
@@ -890,6 +931,7 @@ header .infoItem a:hover {
     position: relative;
     z-index: 1;
     bottom: -85px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .partners {
@@ -910,7 +952,8 @@ header .infoItem a:hover {
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА NEWS*/
 
 .news {
-    background-color: #f0f1f1
+    background-color: #f0f1f1;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .news .allNews span {
@@ -931,6 +974,7 @@ header .infoItem a:hover {
     font-weight: bold;
     color: #102831;
     text-decoration: none;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .news .payDoub .one {
@@ -955,6 +999,7 @@ header .infoItem a:hover {
     position: absolute;
     z-index: -1;
     background-color: #102831;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 footer .wrap {
@@ -966,11 +1011,17 @@ footer .wrap {
 footer .paper {
     display: inline-block;
     float: left;
+    box-shadow: 0px 30px 29px 10px rgba(0,0,0,0.11);
+    border: 1px solid #ffffff;
+    width: 157px;
+    height: 215px;
 }
 
 footer .contacts {
     display: inline-block;
+    float: left;
     margin-left: 75px;
+    padding-top: 10px;
 }
 
 footer .icons {
@@ -995,16 +1046,25 @@ footer .post {
     float: left;
 }
 
+footer .email {
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+
 footer .contacts span {
     margin-right: 20px;
 }
 
 footer .infoItem {
     display: inline-block;
+    float: left;
 }
 
 footer .infoItem li {
     display: block;
+    text-align: left;
+    padding-left: 110px;
 }
 
 footer .logo {
@@ -1099,10 +1159,12 @@ footer .copyright {
 }
 
 .titInvest {
+    width: 1916px;
+    height: 327px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     margin-top: -11px;
 }
 
@@ -1126,6 +1188,7 @@ footer .copyright {
     text-align: center;
     font-weight: bold;
     margin-top: 120px;
+    text-transform: uppercase;
 }
 
 .packet .icon-screen {
@@ -1169,6 +1232,8 @@ footer .copyright {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .middle .title h3 {
@@ -1243,11 +1308,13 @@ footer .copyright {
 /*INFO*/
 
 .packet .item3 {
-    width: 33.3333%;
+    width: 30%;
     float: left;
     margin-top: 60px;
     display: block;
     padding-left: 38px;
+    border: 1px solid #dfe5e8;
+    margin-left: 28px;
 }
 
 .packet .icons {
@@ -1285,6 +1352,7 @@ footer .copyright {
     height: 200px;
     padding-top: 20px;
     margin-top: 60px;
+    text-transform: uppercase;
 }
 
 .packTwo .item2 {
@@ -1363,10 +1431,12 @@ footer .copyright {
     margin-bottom: 100px;
     text-align: center;
     vertical-align: middle;
+    border: 1px solid #dfe5e8;
 }
 
 .infoSteps .image {
-    margin-bottom: 95px;
+    margin-top: 70px;
+    margin-bottom: 75px;
 }
 
 /*КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА InfoSTEPS*/
@@ -1396,6 +1466,7 @@ footer .copyright {
     font-weight: bold;
     line-height: 50px;
     color: #2baf68;
+    text-transform: uppercase;
 }
 
 .infoSteps .item .two {
@@ -1403,12 +1474,14 @@ footer .copyright {
     font-weight: bold;
     line-height: 50px;
     color: #2baf68;
+    text-transform: uppercase;
 }
 
 .infoSteps .item .textLight {
     font-size: 14px;
     line-height: 30px;
     color: #11252d;
+    padding-bottom: 43px;
 }
 
 /*НАЧАЛО ПОЗИЦИОНИРОВАНИЕ БЛОКА CHOISE*/
@@ -1481,6 +1554,7 @@ footer .copyright {
     margin-top: 10px;
     margin-left: 50px;
     border-radius: 52px;
+
 }
 
 .calcul .btnYellow a {
@@ -1513,6 +1587,7 @@ footer .copyright {
 .calcul {
     background-color: #2b3f44;
     margin-top: 118px;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .calcul label {
@@ -1520,18 +1595,23 @@ footer .copyright {
     line-height: 20px;
     font-weight: bold;
     color: #000000;
+    text-transform: uppercase;
 }
 
 .calcul input {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    border: none;
 }
 
 .calcul select {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    border: none;
 }
 
 .calcul .pay {
@@ -1556,6 +1636,7 @@ footer .copyright {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .calcul .right .one {

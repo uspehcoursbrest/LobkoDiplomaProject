@@ -52,14 +52,20 @@ ul {
 
 .topLine {
     width: 70%;
+    height: 170px;
     display: inline-block;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    background-color: #ffc638;
+    padding-top: 26px;
 }
 
 .socItem .point li a span {
     display: block;
     border-radius: 50%;
     border: 1px solid #102831;
+    line-height: 30px;
+    width: 30px;
+    vertical-align: center;
 }
 
 .topLine .socItem {
@@ -69,11 +75,10 @@ ul {
 
 .topLine .socItem li {
     display: inline-block;
-    padding-top: 30px;
 }
 
 .topLine .socItem li + li {
-    margin-left: 25px;
+    margin-left: 16px;
 }
 
 .topLine .time {
@@ -87,19 +92,28 @@ ul {
 
 .logReg {
     display: inline-block;
-    padding-left: 65px;
+    padding-left: 63px;
+}
+
+.logReg .icon-lock {
+    padding-right: 11px;
+}
+
+.logReg .icon-keys {
+    padding-right: 11px;
 }
 
 .logReg .one{
     margin-right: 30px;
 }
 
-.infoItem li {
+header .infoItem li {
     display: inline-block;
+    padding-top: 30px;
 }
 
-.infoItem li + li {
-    margin-left: 50px;
+header .infoItem li + li {
+    margin-left: 55px;
 }
 
 .logo {
@@ -123,7 +137,7 @@ header .time {
     width: 125px;
     height: 22px;
     color: #ffffff;
-    margin-left: 106px;
+    margin-left: 95px;
 }
 
 header .logReg a {
@@ -175,7 +189,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -11px;
+    margin-top: -51px;
 }
 
 .banner .titleLight {
@@ -187,7 +201,7 @@ header .infoItem a:hover {
     font-size: 40px;
     line-height: 80px;
     color: #ffffff;
-    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
 }
 
 .banner .titleLight h2 {
@@ -196,7 +210,7 @@ header .infoItem a:hover {
     line-height: 100px;
     color: #ffffff;
     text-transform: uppercase;
-    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
 }
 
 .banner .btnGreen {
@@ -212,7 +226,7 @@ header .infoItem a:hover {
     text-decoration: none;
     padding: 20px 50px 20px 50px;
     border-radius: 52px;
-    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
 }
 
 .portfolio .descrip {
@@ -288,7 +302,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .advantages {
@@ -339,7 +353,7 @@ header .infoItem a:hover {
     position: absolute;
     top: 50px;
     right: 0;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .catalog .line {
@@ -364,6 +378,10 @@ header .infoItem a:hover {
     padding-bottom: 10px;
 }
 
+.portfolio .catalog .icon-field {
+    padding-top: 13px;
+}
+
 .portfolio .catalog span {
     font-size: 40px;
     color: #ffffff;
@@ -374,6 +392,7 @@ header .infoItem a:hover {
     line-height: 30px;
     color: #ffffff;
     font-weight: bold;
+    padding-left: 38px;
 }
 
 
@@ -555,7 +574,7 @@ header .infoItem a:hover {
     margin-top: 10px;
     margin-left: 50px;
     border-radius: 52px;
-    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
 }
 
 .calculation .btnGreen a {
@@ -591,7 +610,7 @@ header .infoItem a:hover {
     text-align: center;
     vertical-align: middle;
     margin-top: 70px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .calculation .down .per {
@@ -602,7 +621,7 @@ header .infoItem a:hover {
     height: 55px;
     padding-top: 8px;
     margin-top: 70px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
@@ -610,7 +629,7 @@ header .infoItem a:hover {
 .calculation {
     background-color: #2b3f44;
     margin-top: 131px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .calculation label {
@@ -624,7 +643,7 @@ header .infoItem a:hover {
     line-height: 20px;
     color: #ffffff;
     background-color: #0d1f26;
-    box-shadow: inset 3px 0px 7px 0px rgba(0,0,0,0.100);
+    box-shadow: inset 3px 0 7px 0 rgba(0,0,0,0.100);
     border: none;
 }
 
@@ -633,7 +652,7 @@ header .infoItem a:hover {
     line-height: 20px;
     color: #ffffff;
     background-color: #0d1f26;
-    box-shadow: inset 3px 0px 7px 0px rgba(0,0,0,0.100);
+    box-shadow: inset 3px 0 7px 0 rgba(0,0,0,0.100);
     border: none;
 }
 
@@ -741,10 +760,6 @@ header .infoItem a:hover {
     padding-bottom: 90px;
 }
 
-.steps .hi {
-    border-bottom: 1px solid #dfe5e8;
-}
-
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
 
 /*.steps {*/
@@ -758,7 +773,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .steps .item .image {
@@ -883,6 +898,16 @@ header .infoItem a:hover {
     color: #ffb600;
 }
 
+/*.map {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.map iframe {*/
+    /*width: 100%;*/
+    /*height: 500px;*/
+/*}*/
+
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА NEWS*/
 
 .news .titleDark {
@@ -920,7 +945,7 @@ header .infoItem a:hover {
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 30px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .perPay .image {
@@ -931,7 +956,7 @@ header .infoItem a:hover {
     position: relative;
     z-index: 1;
     bottom: -85px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .partners {
@@ -953,7 +978,7 @@ header .infoItem a:hover {
 
 .news {
     background-color: #f0f1f1;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .news .allNews span {
@@ -974,7 +999,7 @@ header .infoItem a:hover {
     font-weight: bold;
     color: #102831;
     text-decoration: none;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 .news .payDoub .one {
@@ -999,7 +1024,7 @@ header .infoItem a:hover {
     position: absolute;
     z-index: -1;
     background-color: #102831;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
 footer .wrap {
@@ -1011,7 +1036,7 @@ footer .wrap {
 footer .paper {
     display: inline-block;
     float: left;
-    box-shadow: 0px 30px 29px 10px rgba(0,0,0,0.11);
+    box-shadow: 0 30px 29px 10px rgba(0,0,0,0.11);
     border: 1px solid #ffffff;
     width: 157px;
     height: 215px;
@@ -1027,13 +1052,13 @@ footer .contacts {
 footer .icons {
     display: block;
     float: left;
-    margin-top: -10px;
+    margin-top: -9px;
 }
 
 footer .adress p {
     display: block;
     float: left;
-    margin-top: -10px;
+    margin-top: -9px;
 }
 
 footer .icons1 {
@@ -1058,7 +1083,7 @@ footer .contacts span {
 
 footer .infoItem {
     display: inline-block;
-    float: left;
+    margin-top: -13px;
 }
 
 footer .infoItem li {
@@ -1131,8 +1156,12 @@ footer .socItem a {
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
+    display: block;
     border-radius: 50%;
     border: 1px solid #102831;
+    line-height: 30px;
+    width: 30px;
+    vertical-align: center;
 }
 
 footer .copyright {
@@ -1154,25 +1183,22 @@ footer .copyright {
 /*НАЧАЛО ПОЗИЦИОНИРОВАНИЕ БЛОКА TITINVEST*/
 
 .titInvest {
-    width: 1916px;
-    height: 327px;
-}
-
-.titInvest {
-    width: 1916px;
-    height: 327px;
+    width: 100%;
+    height: 325px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    margin-top: -11px;
+    margin-top: -51px;
 }
 
-.titInvest span {
+.titInvest .title span {
+    display: block;
     font-size: 90px;
     line-height: 100px;
     font-weight: bold;
     color: #ffffff;
+    padding-top: 110px;
 }
 
 /*КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА TITINVEST*/
@@ -1313,8 +1339,13 @@ footer .copyright {
     margin-top: 60px;
     display: block;
     padding-left: 38px;
+    padding-bottom: 23px;
     border: 1px solid #dfe5e8;
     margin-left: 28px;
+}
+
+.points {
+    margin-left: -28px;
 }
 
 .packet .icons {
@@ -1334,6 +1365,7 @@ footer .copyright {
 }
 
 .packet .item3 .two {
+    display: block;
     font-size: 16px;
     line-height: 26px;
     font-weight: bold;
@@ -1587,7 +1619,7 @@ footer .copyright {
 .calcul {
     background-color: #2b3f44;
     margin-top: 118px;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 021px 0 rgba(0,0,0,0.11);
 }
 
 .calcul label {
@@ -1602,7 +1634,7 @@ footer .copyright {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
     border: none;
 }
 
@@ -1610,7 +1642,7 @@ footer .copyright {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    box-shadow: 3px 0px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
     border: none;
 }
 
@@ -1636,7 +1668,7 @@ footer .copyright {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 16px 0px 21px 0px rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
 }
 
 .calcul .right .one {

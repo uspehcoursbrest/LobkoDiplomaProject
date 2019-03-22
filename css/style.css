@@ -125,6 +125,25 @@ header .infoItem li + li {
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER*/
 
+.topLine {
+    position: relative;
+}
+
+.topLine::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 170px solid #000000;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 26px solid transparent;
+    margin-top: -26px;
+    margin-left: -26px;
+}
+
 header .socItem a {
     font-size: 20px;
     color: #102831;
@@ -394,13 +413,6 @@ header .infoItem a:hover {
     font-weight: bold;
     padding-left: 38px;
 }
-
-
-
-/*.packages {*/
-    /*width: 896px;*/
-    /*height: 1916px;*/
-/*}*/
 
 .packages {
     background: #102831;
@@ -774,6 +786,32 @@ header .infoItem a:hover {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    position: relative;
+}
+
+.steps .item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #ffc638;
+    border-left: 187px solid #ffc638;
+    margin-top: -280px;
+    margin-left: 55px;
+}
+
+.steps .psevdo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 1px solid #626f74;
+    border-left: 1164px solid #626f74;
+    margin-top: -285px;
 }
 
 .steps .item .image {
@@ -955,7 +993,7 @@ header .infoItem a:hover {
 .friends {
     position: relative;
     z-index: 1;
-    bottom: -85px;
+    bottom: -100px;
     box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
 
@@ -973,6 +1011,8 @@ header .infoItem a:hover {
     vertical-align: middle;
     padding: 0 25px;
 }
+
+
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА NEWS*/
 
@@ -1021,16 +1061,15 @@ header .infoItem a:hover {
 }
 
 .footer {
-    position: absolute;
-    z-index: -1;
     background-color: #102831;
     box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    position: relative;
 }
 
 footer .wrap {
     width: 100%;
     float: left;
-    margin-top: 140px;
+    margin-top: 155px;
 }
 
 footer .paper {
@@ -1081,6 +1120,22 @@ footer .contacts span {
     margin-right: 20px;
 }
 
+footer .infoItem li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border-left: 3px solid #ffc537;
+    border-right: 3px solid #ffc537;
+    border-top: 3px solid #ffc537;
+    border-bottom: 3px solid #ffc537;
+    margin-left: -675px;
+    margin-top: 16px;
+}
+
 footer .infoItem {
     display: inline-block;
     margin-top: -13px;
@@ -1089,27 +1144,48 @@ footer .infoItem {
 footer .infoItem li {
     display: block;
     text-align: left;
-    padding-left: 110px;
+    padding-left: 100px;
 }
 
 footer .logo {
     margin-top: 50px;
+    padding-right: 95px;
     text-align: center;
     vertical-align: middle;
 }
 
-footer .socItem {
+footer .soc::before {
+    content: "";
     display: block;
+    position: absolute;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 0px solid transparent;
+    border-top: 107px solid #000000;
+    border-left: 0px solid transparent;
+    border-right: 26px solid transparent;
+    margin-top: 382px;
+    margin-right: -935px;
+}
+
+footer .socItem {
+    width: 30%;
+    display: block;
+    float: right;
+    height: 107px;
+    margin-bottom: -56px;
+    padding-top: 38px;
     background-color: #ffc638;
+    text-align: center;
 }
 
 footer .socItem li {
     display: inline-block;
-    float: right;
 }
 
 footer .socItem li + li {
-    margin-right: 35px;
+    margin-left: 35px;
 }
 
 footer .icon-point {
@@ -1152,19 +1228,24 @@ footer .infoItem a {
     text-decoration: none;
 }
 
-footer .socItem a {
+footer .socItem li a {
     font-size: 20px;
-    color: #ffffff;
+    color: #102831;
     text-decoration: none;
     display: block;
     border-radius: 50%;
     border: 1px solid #102831;
     line-height: 30px;
     width: 30px;
-    vertical-align: center;
 }
 
 footer .copyright {
+    width: 70%;
+    display: block;
+    float: left;
+    height: 43px;
+    padding-top: 17px;
+    margin-bottom: 13px;
     background-color: #ffffff;
 }
 
@@ -1288,6 +1369,24 @@ footer .copyright {
 /*DOWN*/
 
 /*PACKONE*/
+
+.psev {
+    position: relative;
+}
+
+.psev::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #2baf68;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    margin-left: 547px;
+    margin-bottom: -365px;
+}
 
 .packet input {
     display: none;
@@ -1620,6 +1719,21 @@ footer .copyright {
     background-color: #2b3f44;
     margin-top: 118px;
     box-shadow: 3px 021px 0 rgba(0,0,0,0.11);
+    position: relative;
+}
+
+.calcul::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border-top: 55px solid #ffffff;
+    border-left: 56px solid transparent;
+    border-right: 56px solid transparent;
+    margin-bottom: -55px;
+    margin-left: 595px;
 }
 
 .calcul label {
@@ -1686,6 +1800,17 @@ footer .copyright {
     color: #000000;
 }
 
+.calcul .left {
+    padding-top: 150px;
+}
+
+.calcul .center {
+    padding-top: 150px;
+}
+
+.calcul .right {
+    padding-top: 150px;
+}
 
 
 

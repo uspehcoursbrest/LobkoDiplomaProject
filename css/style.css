@@ -809,7 +809,7 @@ header .infoItem a:hover {
     height: 0;
     border-bottom: 1px solid #626f74;
     border-left: 1164px solid #626f74;
-    margin-top: -285px;
+    margin-top: -280px;
 }
 
 .steps .item .image {
@@ -1117,7 +1117,7 @@ footer .contacts span {
     margin-right: 20px;
 }
 
-footer .infoItem li::before {
+footer .infoItem ul li::before {
     content: "";
     display: block;
     position: absolute;
@@ -1138,10 +1138,14 @@ footer .infoItem {
     margin-top: -13px;
 }
 
+footer .infoItem ul {
+    padding-left: 100px;
+}
+
 footer .infoItem li {
+    position: relative;
     display: block;
     text-align: left;
-    padding-left: 100px;
 }
 
 footer .logo {

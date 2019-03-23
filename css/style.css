@@ -136,12 +136,10 @@ header .infoItem li + li {
     left: 100%;
     width: 0;
     height: 0;
-    border-bottom: 170px solid #000000;
-    border-top: 0px solid transparent;
-    border-right: 0px solid transparent;
-    border-left: 26px solid transparent;
-    margin-top: -26px;
-    margin-left: -26px;
+    border-top: 170px solid #ffc638;
+    border-right: 26px solid transparent;
+    border-left: 0 solid transparent;
+    top: 0;
 }
 
 header .socItem a {
@@ -992,7 +990,6 @@ header .infoItem a:hover {
 
 .friends {
     position: relative;
-    z-index: 1;
     bottom: -100px;
     box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
 }
@@ -1619,8 +1616,8 @@ footer .copyright {
 
 .choise {
     position: relative;
-    z-index: 1;
-    bottom: -85px;
+    bottom: -100px;
+    left: -15px;
 }
 
 .choise .partners {
@@ -1636,6 +1633,7 @@ footer .copyright {
     vertical-align: middle;
     padding: 0 25px;
 }
+
 
 /* КОНЕЦ ПОЗИЦИОНИРОВАНИЕ БЛОКА CHOISE*/
 
@@ -1726,14 +1724,15 @@ footer .copyright {
     content: "";
     display: block;
     position: absolute;
-    bottom: 100%;
+    top: 0;
     width: 0;
     height: 0;
     border-top: 55px solid #ffffff;
     border-left: 56px solid transparent;
     border-right: 56px solid transparent;
-    margin-bottom: -55px;
-    margin-left: 595px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
 .calcul label {

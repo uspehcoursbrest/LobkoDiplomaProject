@@ -64,22 +64,48 @@ button:hover {
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER*/
 
+header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin-right: -960px;
+    bottom: 0;
+    width: 701px;
+    height: 107px;
+    background-color: #ffc638;
+}
+
+header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin-right: -259px;
+    bottom: 0;
+    border-bottom: 107px solid #ffc638;
+    border-right: 0 solid transparent;
+    border-left: 20px solid transparent;
+}
+
 .topLine {
     width: 70%;
-    height: 170px;
+    height: 146px;
     display: inline-block;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     background-color: #ffc638;
-    padding-top: 26px;
+    padding-top: 16px;
 }
 
 .socItem .point li a span {
     display: block;
     border-radius: 50%;
     border: 1px solid #102831;
-    line-height: 30px;
-    width: 30px;
+    line-height: 26px;
+    width: 29px;
     vertical-align: center;
+    margin-left: 3px;
+    margin-top: 7px;
 }
 
 .topLine .socItem {
@@ -92,7 +118,7 @@ button:hover {
 }
 
 .topLine .socItem li + li {
-    margin-left: 16px;
+    margin-left: 10px;
 }
 
 .topLine .time {
@@ -110,20 +136,23 @@ button:hover {
 }
 
 .logReg .icon-lock {
-    padding-right: 11px;
+    padding-right: 7px;
 }
 
 .logReg .icon-keys {
-    padding-right: 11px;
+    padding-left: 10px;
 }
 
-.logReg .one{
-    margin-right: 30px;
+.logReg .one {
+    padding-left: 5px;
 }
 
 header .infoItem li {
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 5px;
+    padding-left: 4px;
+    margin-right: -12px;
+    letter-spacing: -0.1px;
 }
 
 header .infoItem li + li {
@@ -157,18 +186,19 @@ header .infoItem li + li {
 }
 
 header .socItem a {
-    font-size: 20px;
+    font-size: 16px;
     color: #102831;
     text-decoration: none;
 }
 
 header .time {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 24px;
     width: 125px;
     height: 22px;
     color: #ffffff;
-    margin-left: 95px;
+    margin-left: 84px;
+    padding-left: 4px;
 }
 
 header .logReg a {
@@ -176,6 +206,7 @@ header .logReg a {
     line-height: 36px;
     color: #11252d;
     text-decoration: none;
+    padding-left: 6px;
 }
 
 header .logReg .one {
@@ -211,28 +242,31 @@ header .infoItem a:hover {
 }
 
 /*.banner {*/
-    /*width: 1920px;*/
-    /*height: 910px;*/
+/*width: 1920px;*/
+/*height: 910px;*/
 /*}*/
 
 .banner {
+    width: 1920px;
+    height: 907px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -51px;
+    margin-top: -60px;
+    margin-left: -286px;
 }
 
 .banner .titleLight {
-    padding-top: 280px;
-
+    padding-top: 260px;
 }
 
 .banner .titleLight span {
     font-size: 40px;
     line-height: 80px;
     color: #ffffff;
-    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
+    letter-spacing: -0.2px;
 }
 
 .banner .titleLight h2 {
@@ -241,7 +275,13 @@ header .infoItem a:hover {
     line-height: 100px;
     color: #ffffff;
     text-transform: uppercase;
-    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
+    margin-top: -10px;
+    letter-spacing: 0.9px;
+}
+
+.banner .btnGreen {
+    margin-top: -194px;
 }
 
 .banner .btnGreen a {
@@ -249,12 +289,20 @@ header .infoItem a:hover {
     line-height: 36;
     color: #ffffff;
     text-decoration: none;
-    padding: 20px 50px 20px 50px;
+    padding: 19px 53px 15px 47px;
     border-radius: 52px;
-    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
     background-color: #2baf68;
     font-weight: bold;
+    margin-left: 3px;
 }
+.banner .btnGreen span {
+    font-size: 16px;
+    line-height: 36;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 
 .portfolio .descrip {
     width: 30%;
@@ -269,27 +317,35 @@ header .infoItem a:hover {
 }
 
 .portfolio .tumbNail {
-    margin-top: 40px;
+    margin-top: 33px;
+    margin-left: 54px;
 }
 
 .portfolio .titleDark {
     text-transform: uppercase;
+    margin-top: -15px;
 }
 
 .portfolio {
     background-color: #ffffff;
+    margin-left: -23px;
+    margin-top: 10px;
 }
 
 .portfolio .descrip span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
+    margin-left: 4px;
 }
 
 .portfolio .descrip h1 {
     font-size: 40px;
     line-height: 50px;
     color: #11252d;
+    margin-top: -9px;
+    letter-spacing: 0.4px;
+    margin-left: 3px;
 }
 
 .portfolio .btnYellow {
@@ -302,14 +358,19 @@ header .infoItem a:hover {
     color: #11252d;
     text-decoration: none;
     font-weight: bold;
-    padding: 20px 50px;
+    padding: 19px 53px 15px 52px;
     border-radius: 52px;
+    margin-left: 1.1px;
+    background-color: #ffc638;
 }
 
 .portfolio .textDark {
     font-size: 16px;
     line-height: 26px;
     color: #11252d;
+    margin-left: 54px;
+    margin-top: -17px;
+    letter-spacing: 0.1px;
 }
 
 .portfolio .tumbNail {
@@ -321,7 +382,7 @@ header .infoItem a:hover {
 
 .support {
     width: 985px;
-    height: 570px;
+    height: 574px;
 }
 
 .support {
@@ -329,7 +390,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .advantages {
@@ -339,7 +400,7 @@ header .infoItem a:hover {
 
 .advantages .item {
     padding-top: 145px;
-    padding-left: 75px;
+    padding-left: 76px;
 }
 
 .advantages .tecSup {
@@ -364,12 +425,18 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 50px;
     color: #ffffff;
+    margin-top: 56px;
+    margin-left: 3px;
+    letter-spacing: 0.6px;
 }
 
 .advantages .textLight {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
+    margin-top: 47px;
+    padding-left: 74px;
+    letter-spacing: 0.2px;
 }
 
 
@@ -380,7 +447,7 @@ header .infoItem a:hover {
     position: absolute;
     top: 50px;
     right: 0;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     background-color: #2baf68;
 }
 
@@ -417,8 +484,9 @@ header .infoItem a:hover {
 }
 
 .portfolio .catalog span {
-    font-size: 40px;
+    font-size: 35px;
     color: #ffffff;
+    margin-top: 2px;
 }
 
 .portfolio .catalog .one {
@@ -434,16 +502,19 @@ header .infoItem a:hover {
     line-height: 30px;
     color: #ffffff;
     font-weight: bold;
-    padding-left: 38px;
-    margin-top: -20px;
+    padding-left: 36px;
+    margin-top: -14px;
 }
 
 .packages {
+    width: 1920px;
+    height: 896px;
     background: #102831;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .packages .title span {
@@ -451,6 +522,7 @@ header .infoItem a:hover {
     line-height: 50px;
     color: #2baf68;
     font-weight: bold;
+    letter-spacing: 0.2px;
 }
 
 .packages .title h1 {
@@ -504,7 +576,7 @@ header .infoItem a:hover {
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
 
 .packages {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .packages .left {
@@ -513,7 +585,7 @@ header .infoItem a:hover {
 }
 
 .packages .left .title {
-    padding-top: 120px;
+    padding-top: 101px;
     text-transform: uppercase;
 }
 
@@ -535,6 +607,8 @@ header .infoItem a:hover {
 .option {
     width: 60%;
     float: left;
+    margin: 0 -15px;
+    margin-top: 120px;
 }
 
 .option .planItem .item {
@@ -542,20 +616,15 @@ header .infoItem a:hover {
 }
 
 .option .planItem {
-    display:inline-block;
-    margin-top: 135px;
-    margin-left: 30px;
-    width: 190px;
-    height: 197px;
+    width: 33.3333%;
     text-align: center;
-    vertical-align: middle;
-    float:left;
+    float: left;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 30px;
 }
 
 .option .item {
-    display: inline-block;
     padding: 30px 60px;
     text-align: center;
 }
@@ -610,7 +679,7 @@ header .infoItem a:hover {
     margin-top: 10px;
     margin-left: 50px;
     border-radius: 52px;
-    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
 }
 
 .calculation .btnGreen a {
@@ -646,7 +715,7 @@ header .infoItem a:hover {
     text-align: center;
     vertical-align: middle;
     margin-top: 70px;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .calculation .down .per {
@@ -657,15 +726,17 @@ header .infoItem a:hover {
     height: 55px;
     padding-top: 8px;
     margin-top: 70px;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА PACKAGES*/
 
 .calculation {
+    position: absolute;
+    bottom: -184px;
     background-color: #2b3f44;
     margin-top: 131px;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .calculation label {
@@ -679,7 +750,7 @@ header .infoItem a:hover {
     line-height: 20px;
     color: #ffffff;
     background-color: #0d1f26;
-    box-shadow: inset 3px 0 7px 0 rgba(0,0,0,0.100);
+    box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
     border: none;
 }
 
@@ -688,7 +759,7 @@ header .infoItem a:hover {
     line-height: 20px;
     color: #ffffff;
     background-color: #0d1f26;
-    box-shadow: inset 3px 0 7px 0 rgba(0,0,0,0.100);
+    box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
     border: none;
 }
 
@@ -799,8 +870,8 @@ header .infoItem a:hover {
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА STEPS*/
 
 /*.steps {*/
-    /*width: 489px;*/
-    /*height: 1918px;*/
+/*width: 489px;*/
+/*height: 1918px;*/
 /*}*/
 
 .steps {
@@ -809,7 +880,7 @@ header .infoItem a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     position: relative;
 }
 
@@ -864,9 +935,18 @@ header .infoItem a:hover {
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА STATISTIC*/
 
-.last {
+.last .first{
+    display: block;
     width: 50%;
     float: left;
+    margin-bottom: 115px;
+    margin-top: 120px;
+}
+
+.last .second{
+    display: inline-block;
+    width: 50%;
+    float: right;
     margin-bottom: 115px;
     margin-top: 120px;
 }
@@ -900,24 +980,6 @@ header .infoItem a:hover {
     text-align: right;
 }
 
-.second .titleDark {
-    padding-left: 23px;
-}
-
-.second .line li .one {
-    width: 256px;
-    padding-left: 23px;
-}
-
-.second .line li .two {
-    width: 256px;
-    padding-left: 23px;
-}
-
-.second .line li .three {
-    text-align: right;
-    padding-left: 23px;
-}
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА STATISTIC*/
 
@@ -960,13 +1022,13 @@ header .infoItem a:hover {
 }
 
 /*.map {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+/*width: 100%;*/
+/*height: 100%;*/
 /*}*/
 
 /*.map iframe {*/
-    /*width: 100%;*/
-    /*height: 500px;*/
+/*width: 100%;*/
+/*height: 500px;*/
 /*}*/
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА NEWS*/
@@ -1006,7 +1068,7 @@ header .infoItem a:hover {
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 30px;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .perPay .image {
@@ -1016,7 +1078,7 @@ header .infoItem a:hover {
 .friends {
     position: relative;
     bottom: -100px;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .partners {
@@ -1035,12 +1097,11 @@ header .infoItem a:hover {
 }
 
 
-
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА NEWS*/
 
 .news {
     background-color: #f0f1f1;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .news .allNews span {
@@ -1061,7 +1122,7 @@ header .infoItem a:hover {
     font-weight: bold;
     color: #102831;
     text-decoration: none;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
 .news .payDoub .one {
@@ -1082,10 +1143,33 @@ header .infoItem a:hover {
     color: #102831;
 }
 
-.footer {
+footer {
     background-color: #102831;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
-    position: relative;
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
+}
+
+footer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin-right: -960px;
+    bottom: 0;
+    width: 701px;
+    height: 107px;
+    background-color: #ffc638;
+}
+
+footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin-right: -259px;
+    bottom: 0;
+    border-bottom: 107px solid #ffc638;
+    border-right: 0 solid transparent;
+    border-left: 20px solid transparent;
 }
 
 footer .wrap {
@@ -1097,7 +1181,7 @@ footer .wrap {
 footer .paper {
     display: inline-block;
     float: left;
-    box-shadow: 0 30px 29px 10px rgba(0,0,0,0.11);
+    box-shadow: 0 30px 29px 10px rgba(0, 0, 0, 0.11);
     border: 1px solid #ffffff;
     width: 157px;
     height: 215px;
@@ -1179,24 +1263,6 @@ footer .logo {
     padding-right: 95px;
     text-align: center;
     vertical-align: middle;
-}
-
-.soc {
-    position: relative;
-}
-
-footer .soc::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 70%;
-    width: 0;
-    height: 0;
-    border-top: 107px solid transparent;
-    border-left: 0 solid transparent;
-    border-right: 26px solid #ffc638;
-    margin-left: -26px;
-    bottom: -56px;
 }
 
 footer .socItem {
@@ -1285,7 +1351,6 @@ footer .copyright {
     line-height: 24px;
     color: #102831;
 }
-
 
 
 /*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
@@ -1749,7 +1814,7 @@ footer .copyright {
 .calcul {
     background-color: #2b3f44;
     margin-top: 118px;
-    box-shadow: 3px 021px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 021px 0 rgba(0, 0, 0, 0.11);
     position: relative;
 }
 
@@ -1780,7 +1845,7 @@ footer .copyright {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     border: none;
 }
 
@@ -1788,7 +1853,7 @@ footer .copyright {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    box-shadow: 3px 0 21px 0 rgba(0,0,0,0.11);
+    box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     border: none;
 }
 
@@ -1814,7 +1879,7 @@ footer .copyright {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 16px 0 21px 0 rgba(0,0,0,0.21);
+    box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
 }
 
 .calcul .right .one {

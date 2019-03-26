@@ -64,29 +64,29 @@ button:hover {
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER*/
 
-header::before {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 50%;
-    margin-right: -960px;
-    bottom: 0;
-    width: 701px;
-    height: 107px;
-    background-color: #ffc638;
-}
+/*header::before {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*right: 50%;*/
+    /*margin-right: -960px;*/
+    /*bottom: 0;*/
+    /*width: 701px;*/
+    /*height: 107px;*/
+    /*background-color: #ffc638;*/
+/*}*/
 
-header::after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 50%;
-    margin-right: -259px;
-    bottom: 0;
-    border-bottom: 107px solid #ffc638;
-    border-right: 0 solid transparent;
-    border-left: 20px solid transparent;
-}
+/*header::after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*right: 50%;*/
+    /*margin-right: -259px;*/
+    /*bottom: 0;*/
+    /*border-bottom: 107px solid #ffc638;*/
+    /*border-right: 0 solid transparent;*/
+    /*border-left: 20px solid transparent;*/
+/*}*/
 
 .topLine {
     width: 70%;
@@ -246,6 +246,7 @@ header .infoItem a:hover {
 /*height: 910px;*/
 /*}*/
 
+
 .banner {
     width: 1920px;
     height: 907px;
@@ -282,6 +283,9 @@ header .infoItem a:hover {
 
 .banner .btnGreen {
     margin-top: -194px;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
 
 .banner .btnGreen a {
@@ -414,10 +418,83 @@ header .infoItem a:hover {
     padding-left: 75px;
 }
 
-.advantages .item .icon-head {
+.advantages .item .icon-head{
     font-size: 110px;
     line-height: 111px;
     color: #ffc638;
+    animation-name: call;
+
+}
+
+.call::before {
+    animation-name: callAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    border-radius: 50%;
+}
+
+@keyframes callAnimation {
+    0% {
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 1;
+        color: #ffc638;
+    }
+
+
+    33% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 1;
+        color: #2baf68;
+    }
+
+
+    50% {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        opacity: 1;
+        color: #4286f4;
+    }
+
+    75% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 1;
+        color: #ffffff;
+    }
+
+    99% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 1;
+        color: #d60e0e;
+    }
+
+    100% {
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 1;
+        color: #c635e0;
+    }
 }
 
 .advantages .tecSup {

@@ -132,7 +132,7 @@ button:hover {
 
 .logReg {
     display: inline-block;
-    padding-left: 63px;
+    padding-left: 51px;
 }
 
 .logReg .icon-lock {
@@ -149,21 +149,22 @@ button:hover {
 
 header .infoItem li {
     display: inline-block;
-    padding-top: 5px;
+    padding-top: 27px;
     padding-left: 4px;
-    margin-right: -12px;
     letter-spacing: -0.1px;
+    margin-right: -12px;
 }
 
 header .infoItem li + li {
-    margin-left: 55px;
+    margin-left: 43px;
 }
 
 .logo {
     width: 30%;
     float: right;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 27px;
+    margin-right: -90px;
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER*/
@@ -192,13 +193,14 @@ header .socItem a {
 }
 
 header .time {
-    font-size: 18px;
+    font-size: 21px;
     line-height: 24px;
-    width: 125px;
+    width: 127px;
     height: 22px;
     color: #ffffff;
-    margin-left: 84px;
+    margin-left: 94px;
     padding-left: 4px;
+    margin-top: 9px;
 }
 
 header .logReg a {
@@ -214,6 +216,7 @@ header .logReg .one {
     line-height: 36px;
     color: #11252d;
     text-decoration: underline;
+    margin-left: 5px;
 }
 
 header .infoItem a {
@@ -248,14 +251,12 @@ header .infoItem a:hover {
 
 
 .banner {
-    width: 1920px;
     height: 907px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -60px;
-    margin-left: -286px;
+    margin-top: -36px;
 }
 
 .banner .titleLight {
@@ -293,7 +294,7 @@ header .infoItem a:hover {
     line-height: 36;
     color: #ffffff;
     text-decoration: none;
-    padding: 19px 53px 15px 47px;
+    padding: 19px 53px 15px 42px;
     border-radius: 52px;
     box-shadow: 16px 0 21px 0 rgba(0, 0, 0, 0.21);
     background-color: #2baf68;
@@ -305,8 +306,12 @@ header .infoItem a:hover {
     line-height: 36;
     color: #ffffff;
     font-weight: bold;
+    margin-left: 6px;
+    margin-top: -13px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.1px;
 }
-
 
 .portfolio .descrip {
     width: 30%;
@@ -321,8 +326,9 @@ header .infoItem a:hover {
 }
 
 .portfolio .tumbNail {
-    margin-top: 33px;
+    margin-top: 25px;
     margin-left: 54px;
+    letter-spacing: 0.1px;
 }
 
 .portfolio .titleDark {
@@ -332,15 +338,13 @@ header .infoItem a:hover {
 
 .portfolio {
     background-color: #ffffff;
-    margin-left: -23px;
-    margin-top: 10px;
 }
 
 .portfolio .descrip span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
-    margin-left: 4px;
+    margin-left: 7px;
 }
 
 .portfolio .descrip h1 {
@@ -366,6 +370,16 @@ header .infoItem a:hover {
     border-radius: 52px;
     margin-left: 1.1px;
     background-color: #ffc638;
+}
+
+.portfolio .btnYellow span {
+    font-size: 16px;
+    line-height: 36px;
+    color: #11252d;
+    margin-left: 1px;
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .portfolio .textDark {
@@ -398,13 +412,14 @@ header .infoItem a:hover {
 }
 
 .advantages {
-    margin-top: 105px;
+    margin-top: 100px;
     position: relative;
+    margin-left: -12px;
 }
 
 .advantages .item {
-    padding-top: 145px;
-    padding-left: 76px;
+    padding-top: 144px;
+    padding-left: 77px;
 }
 
 .advantages .tecSup {
@@ -511,20 +526,21 @@ header .infoItem a:hover {
     line-height: 26px;
     color: #ffffff;
     margin-top: 47px;
-    padding-left: 74px;
-    letter-spacing: 0.2px;
+    padding-left: 76px;
+    letter-spacing: 0.1px;
 }
 
 
 .catalog {
-    width: 360px;
-    height: 465px;
-    padding-top: 35px;
+    width: 363px;
+    height: 475px;
+    padding-top: 36px;
     position: absolute;
     top: 50px;
     right: 0;
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     background-color: #2baf68;
+    margin-right: 16px;
 }
 
 .catalog .line {
@@ -556,13 +572,54 @@ header .infoItem a:hover {
 }
 
 .portfolio .catalog .icon-field {
-    padding-top: 13px;
-}
-
-.portfolio .catalog span {
     font-size: 35px;
     color: #ffffff;
-    margin-top: 2px;
+    vertical-align: top;
+    margin-top: 8px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.portfolio .catalog .icon-paper {
+    font-size: 35px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 10px;
+    display: inline-block;
+}
+.portfolio .catalog .icon-scheme {
+    font-size: 39px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.portfolio .catalog .icon-Growth {
+    font-size: 35px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: -1px;
+}
+
+.portfolio .catalog .icon-head {
+    font-size: 37px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 19px;
+    display: inline-block;
+    margin-left: -1px;
+}
+
+.portfolio .catalog .icon-win {
+    font-size: 35px;
+    color: #ffffff;
+    vertical-align: top;
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 4px;
 }
 
 .portfolio .catalog .one {
@@ -837,6 +894,20 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
+    margin-top: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -2px;
+}
+
+.calculation .selectDark label {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -2px;
 }
 
 .calculation input {

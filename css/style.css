@@ -802,16 +802,16 @@ header .infoItem a:hover {
 .inputDark {
     float: left;
     display: block;
-    padding-left: 38px;
-    padding-top: 51px;
-    margin-bottom: 16px;
+    padding-left: 40px;
+    padding-top: 45px;
+    margin-bottom: 22px;
 }
 
 .inputDark input {
     width: 321px;
     height: 52px;
     padding-left: 23px;
-    padding-top: 14px;
+    padding-top: 11px;
 }
 
 .selectDark {
@@ -821,10 +821,9 @@ header .infoItem a:hover {
 
 .selectDark select {
     width: 321px;
-    height: 52px;
+    height: 53px;
     padding-left: 48px;
-    padding-top: 5px;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .calculation .middle {
@@ -832,7 +831,7 @@ header .infoItem a:hover {
     float: left;
     display: block;
     padding-left: 40px;
-    padding-top: 45px;
+    padding-top: 33px;
     text-align: center;
 }
 
@@ -892,17 +891,15 @@ header .infoItem a:hover {
 .calculation {
     position: absolute;
     bottom: -146px;
-    background-color: #2b3f44;
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     margin-left: -283px;
-    margin-bottom: -5px;
 }
 
 .calculation label {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
-    margin-top: 2px;
+    margin-top: 6px;
     vertical-align: middle;
     display: inline-block;
     margin-left: -2px;
@@ -912,7 +909,7 @@ header .infoItem a:hover {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: -12px;
     vertical-align: middle;
     display: inline-block;
     margin-left: -2px;
@@ -943,18 +940,20 @@ header .infoItem a:hover {
     color: #2baf68;
     text-transform: uppercase;
     display: inline-block;
-    padding-left: 5px;
-    letter-spacing: -0.2px;
+    padding-left: 89px;
+    margin-top: 24px;
+    letter-spacing: 0.1px;
 }
 
 .calculation .sum {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 50px;
     font-weight: bold;
     color: #ffffff;
-    margin-top: -9px;
     display: inline-block;
-    margin-left: 11px;
+    margin-left: 90px;
+    margin-top: -9px;
+    letter-spacing: 0.56px;
 }
 
 .calculation .btnGreen a {
@@ -964,10 +963,10 @@ header .infoItem a:hover {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    padding-top: 10px;
-    margin-top: 45px;
+    padding-top: 5px;
     display: block;
-    margin-left: 44px;
+    margin-left: 79px;
+    margin-top: 27px
 }
 
 .calculation .right .one {

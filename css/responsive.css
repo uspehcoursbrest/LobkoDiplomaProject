@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .topLine {
+        background-color: #ffffff;
+    }
+
+    header::before {
+        display: none;
+    }
+
+    .topLine::before {
+        display: none;
+    }
+
+    .logo {
+
+    }
+
+    .logReg  {
+        width: calc(100% - 30px);
+    }
+
+    .topLine .time {
+        display: none;
+    }
+
+    .topLine .socItem {
+        display: none;
+    }
+
+
+}

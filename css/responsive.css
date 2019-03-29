@@ -8,6 +8,151 @@
     .container {
         width: 950px;
     }
+
+    .topLine .time {
+        display: none;
+    }
+
+    .topLine .infoItem {
+        width: 100%;
+    }
+
+    .banner {
+        box-shadow: none;
+    }
+
+    .banner .titleLight h2 {
+        font-size: 80px;
+    }
+
+    .portfolio .titleDark {
+        text-align: center;
+    }
+
+    .portfolio .titleDark h1 {
+        margin-top: 70px;
+    }
+
+    .advantages .item .icon-head {
+        font-size: 150px;
+        margin-left: 150px;
+    }
+
+    .advantages .tecSup {
+        font-size: 30px;
+    }
+
+    .advantages .textLight {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -1px;
+    }
+
+    .calculation .down {
+        display: none;
+    }
+
+    .calculation .left {
+        margin-top: -20px;
+    }
+
+    .packages {
+        background-image: none;
+    }
+
+    .packages .wrapper {
+        display: none;
+    }
+
+    .calculation .middle {
+        position: relative;
+        left: 120px;
+        margin-top: -20px;
+    }
+
+    .calculation .middle .btnGreen {
+        margin-bottom: 10px;
+        margin-left: -30px;
+    }
+
+    .calculation .right {
+        display: none;
+    }
+
+    .results {
+        display: none;
+    }
+
+    .steps {
+       display: none;
+    }
+
+    .statistic {
+        margin-top: 50px;
+    }
+
+    .statistic .first {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .statistic .second {
+        margin-left: 140px;
+        width: 80%;
+    }
+
+    .statistic .titleDark {
+        text-align: center;
+    }
+
+    .news .titleDark {
+        position: relative;
+        top: 50px;
+    }
+
+    .news .titleDark span {
+        margin-left: 50px;
+    }
+
+    .news .perPay .first{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        left: 330px;
+        top: -200px;
+    }
+
+    .news .perPay .second{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        top: -250px;
+    }
+
+    .news .btnYellow {
+        position: relative;
+        top: 350px;
+        left: -100px;
+    }
+
+    .news {
+        position: relative !important;
+        background-color: #ffffff !important;
+        z-index: 1;
+    }
+
+    footer {
+        position: relative;
+        top: -350px;
+        z-index: -1;
+    }
+
+    .friends {
+        display: none;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -27,17 +172,15 @@
         display: none;
     }
 
-    header .logo {
-        display: block;
-        float: left;
-        margin-left: 90px;
-
+    .logo {
+        position: relative;
+        left: -170px;
+        width: 20% !important;
     }
 
     .logReg  {
-        display: inline-block;
-        margin-top: 80px;
-        margin-left: -25px;
+        margin-left: -20px;
+        margin-top: 15px;
     }
 
     .topLine .time {
@@ -48,5 +191,149 @@
         display: none;
     }
 
+    .topLine .infoItem li a {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .portfolio .info {
+      display: none;
+    }
+
+    .advantages .support {
+        background-color: #ffffff;
+        display: none;
+    }
+
+    .advantages .catalog {
+        position: relative;
+        top: -130px;
+        right: -50px;
+    }
+
+    .advantages .support {
+        width: 100%;
+    }
+
+    .advantages .support .item {
+        display: none;
+    }
+
+    .advantages .support .tecSup {
+        display: none;
+    }
+
+    .advantages .support .textLight {
+        display: none;
+    }
+
+    .packages {
+        clear: none;
+        background-image: none !important;
+        background-color: #ffffff;
+    }
+
+    .calculation .left {
+        position: relative;
+        top: -1100px;
+        left: 40px;
+    }
+
+    .packages .wrapper {
+        display: none;
+        clear: none;
+    }
+
+    .calculation .middle .common {
+        display: none;
+    }
+
+    .calculation .middle .sum {
+        display: none;
+    }
+
+    .calculation .middle .btnGreen {
+        position: relative;
+        top: -900px;
+        left: -165px;
+    }
+
+    .calculation .right {
+        display: none;
+    }
+
+    .calculation .down {
+        display: none;
+    }
+
+    .calculation {
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+
+    .results {
+        display: none;
+    }
+
+    .steps {
+        display: none;
+    }
+
+    .statistic {
+        display: none;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .friends {
+        display: none;
+        box-shadow: none;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+        background-color: #102831;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    footer .adress {
+        position: relative;
+        left: 120px;
+        top: -215px;
+    }
+
+    footer .email {
+        position: relative;
+        left: 120px;
+        top: -215px;
+    }
+
+    footer .infoItem {
+        display: none;
+    }
+
+    footer::before {
+        display: none;
+    }
+
+    footer::after {
+        display: none;
+    }
+
+    footer .copyright {
+        position: relative;
+        top: -250px;
+        width: 100%;
+        text-align: center;
+    }
 
 }

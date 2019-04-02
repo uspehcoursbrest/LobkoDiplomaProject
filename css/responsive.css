@@ -4,156 +4,156 @@
     }
 }
 
-@media (max-width: 1199px) {
-    .container {
-        width: 950px;
-    }
+/*@media (max-width: 1199px) {*/
+    /*.container {*/
+        /*width: 950px;*/
+    /*}*/
 
-    .topLine .time {
-        display: none;
-    }
+    /*.topLine .time {*/
+        /*display: none;*/
+    /*}*/
 
-    .topLine .infoItem {
-        width: 100%;
-    }
+    /*.topLine .infoItem {*/
+        /*width: 100%;*/
+    /*}*/
 
-    .banner {
-        box-shadow: none;
-    }
+    /*.banner {*/
+        /*box-shadow: none;*/
+    /*}*/
 
-    .banner .titleLight h2 {
-        font-size: 80px;
-    }
+    /*.banner .titleLight h2 {*/
+        /*font-size: 80px;*/
+    /*}*/
 
-    .portfolio .titleDark {
-        text-align: center;
-    }
+    /*.portfolio .titleDark {*/
+        /*text-align: center;*/
+    /*}*/
 
-    .portfolio .titleDark h1 {
-        margin-top: 70px;
-    }
+    /*.portfolio .titleDark h1 {*/
+        /*margin-top: 70px;*/
+    /*}*/
 
-    .advantages .item .icon-head {
-        font-size: 150px;
-        margin-left: 150px;
-    }
+    /*.advantages .item .icon-head {*/
+        /*font-size: 150px;*/
+        /*margin-left: 150px;*/
+    /*}*/
 
-    .advantages .tecSup {
-        font-size: 30px;
-    }
+    /*.advantages .tecSup {*/
+        /*font-size: 30px;*/
+    /*}*/
 
-    .advantages .textLight {
-        font-size: 15px;
-        line-height: 26px;
-        letter-spacing: -1px;
-    }
+    /*.advantages .textLight {*/
+        /*font-size: 15px;*/
+        /*line-height: 26px;*/
+        /*letter-spacing: -1px;*/
+    /*}*/
 
-    .calculation .down {
-        display: none;
-    }
+    /*.calculation .down {*/
+        /*display: none;*/
+    /*}*/
 
-    .calculation .left {
-        margin-top: -20px;
-    }
+    /*.calculation .left {*/
+        /*margin-top: -20px;*/
+    /*}*/
 
-    .packages {
-        background-image: none;
-    }
+    /*.packages {*/
+        /*background-image: none;*/
+    /*}*/
 
-    .packages .wrapper {
-        display: none;
-    }
+    /*.packages .wrapper {*/
+        /*display: none;*/
+    /*}*/
 
-    .calculation .middle {
-        position: relative;
-        left: 120px;
-        margin-top: -20px;
-    }
+    /*.calculation .middle {*/
+        /*position: relative;*/
+        /*left: 120px;*/
+        /*margin-top: -20px;*/
+    /*}*/
 
-    .calculation .middle .btnGreen {
-        margin-bottom: 10px;
-        margin-left: -30px;
-    }
+    /*.calculation .middle .btnGreen {*/
+        /*margin-bottom: 10px;*/
+        /*margin-left: -30px;*/
+    /*}*/
 
-    .calculation .right {
-        display: none;
-    }
+    /*.calculation .right {*/
+        /*display: none;*/
+    /*}*/
 
-    .results {
-        display: none;
-    }
+    /*.results {*/
+        /*display: none;*/
+    /*}*/
 
-    .steps {
-       display: none;
-    }
+    /*.steps {*/
+       /*display: none;*/
+    /*}*/
 
-    .statistic {
-        margin-top: 50px;
-    }
+    /*.statistic {*/
+        /*margin-top: 50px;*/
+    /*}*/
 
-    .statistic .first {
-        margin-left: 50px;
-        width: 80%;
-    }
+    /*.statistic .first {*/
+        /*margin-left: 50px;*/
+        /*width: 80%;*/
+    /*}*/
 
-    .statistic .second {
-        margin-left: 140px;
-        width: 80%;
-    }
+    /*.statistic .second {*/
+        /*margin-left: 140px;*/
+        /*width: 80%;*/
+    /*}*/
 
-    .statistic .titleDark {
-        text-align: center;
-    }
+    /*.statistic .titleDark {*/
+        /*text-align: center;*/
+    /*}*/
 
-    .news .titleDark {
-        position: relative;
-        top: 50px;
-    }
+    /*.news .titleDark {*/
+        /*position: relative;*/
+        /*top: 50px;*/
+    /*}*/
 
-    .news .titleDark span {
-        margin-left: 50px;
-    }
+    /*.news .titleDark span {*/
+        /*margin-left: 50px;*/
+    /*}*/
 
-    .news .perPay .first{
-        width: 100%;
-        float: left;
-        display: inline-block;
-        position: relative;
-        left: 330px;
-        top: -200px;
-    }
+    /*.news .perPay .first{*/
+        /*width: 100%;*/
+        /*float: left;*/
+        /*display: inline-block;*/
+        /*position: relative;*/
+        /*left: 330px;*/
+        /*top: -200px;*/
+    /*}*/
 
-    .news .perPay .second{
-        width: 100%;
-        float: left;
-        display: inline-block;
-        position: relative;
-        top: -250px;
-    }
+    /*.news .perPay .second{*/
+        /*width: 100%;*/
+        /*float: left;*/
+        /*display: inline-block;*/
+        /*position: relative;*/
+        /*top: -250px;*/
+    /*}*/
 
-    .news .btnYellow {
-        position: relative;
-        top: 350px;
-        left: -100px;
-    }
+    /*.news .btnYellow {*/
+        /*position: relative;*/
+        /*top: 350px;*/
+        /*left: -100px;*/
+    /*}*/
 
-    .news {
-        position: relative !important;
-        background-color: #ffffff !important;
-        z-index: 1;
-    }
+    /*.news {*/
+        /*position: relative !important;*/
+        /*background-color: #ffffff !important;*/
+        /*z-index: 1;*/
+    /*}*/
 
-    footer {
-        position: relative;
-        top: -350px;
-        z-index: -1;
-    }
+    /*footer {*/
+        /*position: relative;*/
+        /*top: -350px;*/
+        /*z-index: -1;*/
+    /*}*/
 
-    .friends {
-        display: none;
-    }
+    /*.friends {*/
+        /*display: none;*/
+    /*}*/
 
-}
+/*}*/
 
 @media (max-width: 767px) {
     .container {
@@ -161,179 +161,113 @@
     }
 
     .topLine {
-        background-color: #ffffff;
-    }
-
-    header::before {
-        display: none;
-    }
-
-    .topLine::before {
-        display: none;
+        width: 70%;
     }
 
     .logo {
-        position: relative;
-        left: -170px;
-        width: 20% !important;
+        display: block;
+        width: 45%;
     }
 
-    .logReg  {
-        margin-left: -20px;
-        margin-top: 15px;
+    .logo img {
+        margin-top: 20px;
+        margin-left: -60px !important;
     }
 
     .topLine .time {
-        display: none;
+        margin-top: -15px;
+        margin-left: 20px;
     }
 
-    .topLine .socItem {
-        display: none;
+    header .logReg a {
+        padding: 0 20px;
     }
 
-    .topLine .infoItem li a {
-        display: none;
+    .logReg {
+        margin-top: 20px;
+        margin-left: -30px;
     }
 
-    .banner {
-        display: none;
+    .logReg .icon-lock {
+        font-size: 30px;
     }
 
-    .portfolio .info {
-      display: none;
+    .logReg .icon-keys {
+        font-size: 30px;
     }
 
-    .advantages .support {
-        background-color: #ffffff;
-        display: none;
+    .logReg .one {
+        font-size: 16px !important;
     }
 
-    .advantages .catalog {
-        position: relative;
-        top: -130px;
-        right: -50px;
+    header .infoItem {
+        width: 100%;
+        margin-top: 25px;
     }
 
-    .advantages .support {
+    header .infoItem li + li {
+        display: inline-block;
+        margin-left: 5px;
+        padding: 0 -5px;
+    }
+
+    header .infoItem li {
+        display: inline-block;
+        margin-left: -5px;
+    }
+
+    .banner .titleLight span {
+        font-size: 25px;
+    }
+
+    .banner .container {
         width: 100%;
     }
 
-    .advantages .support .item {
-        display: none;
+    .banner .titleLight h2 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-top: 30px;
     }
 
-    .advantages .support .tecSup {
-        display: none;
+    .banner .btnGreen {
+        margin-top: 10px;
     }
 
-    .advantages .support .textLight {
-        display: none;
+    .portfolio .descrip {
+        margin-top: -80px;
+        text-align: center;
     }
 
-    .packages {
-        clear: none;
-        background-image: none !important;
-        background-color: #ffffff;
+    .portfolio .text {
+        margin-top: -80px;
     }
 
-    .calculation .left {
-        position: relative;
-        top: -1100px;
-        left: 40px;
+    .portfolio .btnYellow a {
+        padding: 20px 10px;
+        margin-left: 25px;
     }
 
-    .packages .wrapper {
-        display: none;
-        clear: none;
+    .portfolio .btnYellow a  span {
+        padding-top: 7px;
     }
 
-    .calculation .middle .common {
-        display: none;
+    .portfolio .descrip h1 {
+        margin-top: 50px;
+        margin-left: -10px;
+        text-align: center;
     }
 
-    .calculation .middle .sum {
-        display: none;
+    .portfolio .descrip .titleDark {
+        margin-left: 40px;
     }
 
-    .calculation .middle .btnGreen {
-        position: relative;
-        top: -900px;
-        left: -165px;
-    }
-
-    .calculation .right {
-        display: none;
-    }
-
-    .calculation .down {
-        display: none;
-    }
-
-    .calculation {
-        background-color: #ffffff;
-        box-shadow: none;
-    }
-
-    .results {
+    .portfolio .tumbNail {
         display: none;
     }
 
     .steps {
         display: none;
-    }
-
-    .statistic {
-        display: none;
-    }
-
-    .news {
-        display: none;
-    }
-
-    .friends {
-        display: none;
-        box-shadow: none;
-    }
-
-    footer {
-        width: 100%;
-        height: 100%;
-        background-color: #102831;
-    }
-
-    footer .logo {
-        display: none;
-    }
-
-    footer .adress {
-        position: relative;
-        left: 120px;
-        top: -215px;
-    }
-
-    footer .email {
-        position: relative;
-        left: 120px;
-        top: -215px;
-    }
-
-    footer .infoItem {
-        display: none;
-    }
-
-    footer::before {
-        display: none;
-    }
-
-    footer::after {
-        display: none;
-    }
-
-    footer .copyright {
-        position: relative;
-        top: -250px;
-        width: 100%;
-        text-align: center;
     }
 
 }

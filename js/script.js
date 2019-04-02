@@ -11,7 +11,7 @@ window.onload = function() {
     }
     var timer;
     function  clockStart() {
-        timer =setInterval(clock, 1000);
+        timer =setInterval(clock, 60000);
         clock();
     }
     clockStart()

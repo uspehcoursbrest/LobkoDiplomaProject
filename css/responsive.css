@@ -4,156 +4,156 @@
     }
 }
 
-/*@media (max-width: 1199px) {*/
-    /*.container {*/
-        /*width: 950px;*/
-    /*}*/
+@media (max-width: 1199px) {
+    .container {
+        width: 950px;
+    }
 
-    /*.topLine .time {*/
-        /*display: none;*/
-    /*}*/
+    .topLine .time {
+        display: none;
+    }
 
-    /*.topLine .infoItem {*/
-        /*width: 100%;*/
-    /*}*/
+    .topLine .infoItem {
+        width: 100%;
+    }
 
-    /*.banner {*/
-        /*box-shadow: none;*/
-    /*}*/
+    .banner {
+        box-shadow: none;
+    }
 
-    /*.banner .titleLight h2 {*/
-        /*font-size: 80px;*/
-    /*}*/
+    .banner .titleLight h2 {
+        font-size: 80px;
+    }
 
-    /*.portfolio .titleDark {*/
-        /*text-align: center;*/
-    /*}*/
+    .portfolio .titleDark {
+        text-align: center;
+    }
 
-    /*.portfolio .titleDark h1 {*/
-        /*margin-top: 70px;*/
-    /*}*/
+    .portfolio .titleDark h1 {
+        margin-top: 70px;
+    }
 
-    /*.advantages .item .icon-head {*/
-        /*font-size: 150px;*/
-        /*margin-left: 150px;*/
-    /*}*/
+    .advantages .item .icon-head {
+        font-size: 150px;
+        margin-left: 150px;
+    }
 
-    /*.advantages .tecSup {*/
-        /*font-size: 30px;*/
-    /*}*/
+    .advantages .tecSup {
+        font-size: 30px;
+    }
 
-    /*.advantages .textLight {*/
-        /*font-size: 15px;*/
-        /*line-height: 26px;*/
-        /*letter-spacing: -1px;*/
-    /*}*/
+    .advantages .textLight {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -1px;
+    }
 
-    /*.calculation .down {*/
-        /*display: none;*/
-    /*}*/
+    .calculation .down {
+        display: none;
+    }
 
-    /*.calculation .left {*/
-        /*margin-top: -20px;*/
-    /*}*/
+    .calculation .left {
+        margin-top: -20px;
+    }
 
-    /*.packages {*/
-        /*background-image: none;*/
-    /*}*/
+    .packages {
+        background-image: none;
+    }
 
-    /*.packages .wrapper {*/
-        /*display: none;*/
-    /*}*/
+    .packages .wrapper {
+        display: none;
+    }
 
-    /*.calculation .middle {*/
-        /*position: relative;*/
-        /*left: 120px;*/
-        /*margin-top: -20px;*/
-    /*}*/
+    .calculation .middle {
+        position: relative;
+        left: 120px;
+        margin-top: -20px;
+    }
 
-    /*.calculation .middle .btnGreen {*/
-        /*margin-bottom: 10px;*/
-        /*margin-left: -30px;*/
-    /*}*/
+    .calculation .middle .btnGreen {
+        margin-bottom: 10px;
+        margin-left: -30px;
+    }
 
-    /*.calculation .right {*/
-        /*display: none;*/
-    /*}*/
+    .calculation .right {
+        display: none;
+    }
 
-    /*.results {*/
-        /*display: none;*/
-    /*}*/
+    .results {
+        display: none;
+    }
 
-    /*.steps {*/
-       /*display: none;*/
-    /*}*/
+    .steps {
+       display: none;
+    }
 
-    /*.statistic {*/
-        /*margin-top: 50px;*/
-    /*}*/
+    .statistic {
+        margin-top: 50px;
+    }
 
-    /*.statistic .first {*/
-        /*margin-left: 50px;*/
-        /*width: 80%;*/
-    /*}*/
+    .statistic .first {
+        margin-left: 50px;
+        width: 80%;
+    }
 
-    /*.statistic .second {*/
-        /*margin-left: 140px;*/
-        /*width: 80%;*/
-    /*}*/
+    .statistic .second {
+        margin-left: 140px;
+        width: 80%;
+    }
 
-    /*.statistic .titleDark {*/
-        /*text-align: center;*/
-    /*}*/
+    .statistic .titleDark {
+        text-align: center;
+    }
 
-    /*.news .titleDark {*/
-        /*position: relative;*/
-        /*top: 50px;*/
-    /*}*/
+    .news .titleDark {
+        position: relative;
+        top: 50px;
+    }
 
-    /*.news .titleDark span {*/
-        /*margin-left: 50px;*/
-    /*}*/
+    .news .titleDark span {
+        margin-left: 50px;
+    }
 
-    /*.news .perPay .first{*/
-        /*width: 100%;*/
-        /*float: left;*/
-        /*display: inline-block;*/
-        /*position: relative;*/
-        /*left: 330px;*/
-        /*top: -200px;*/
-    /*}*/
+    .news .perPay .first{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        left: 330px;
+        top: -200px;
+    }
 
-    /*.news .perPay .second{*/
-        /*width: 100%;*/
-        /*float: left;*/
-        /*display: inline-block;*/
-        /*position: relative;*/
-        /*top: -250px;*/
-    /*}*/
+    .news .perPay .second{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        top: -250px;
+    }
 
-    /*.news .btnYellow {*/
-        /*position: relative;*/
-        /*top: 350px;*/
-        /*left: -100px;*/
-    /*}*/
+    .news .btnYellow {
+        position: relative;
+        top: 350px;
+        left: -100px;
+    }
 
-    /*.news {*/
-        /*position: relative !important;*/
-        /*background-color: #ffffff !important;*/
-        /*z-index: 1;*/
-    /*}*/
+    .news {
+        position: relative !important;
+        background-color: #ffffff !important;
+        z-index: 1;
+    }
 
-    /*footer {*/
-        /*position: relative;*/
-        /*top: -350px;*/
-        /*z-index: -1;*/
-    /*}*/
+    footer {
+        position: relative;
+        top: -350px;
+        z-index: -1;
+    }
 
-    /*.friends {*/
-        /*display: none;*/
-    /*}*/
+    .friends {
+        display: none;
+    }
 
-/*}*/
+}
 
 @media (max-width: 767px) {
     .container {

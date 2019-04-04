@@ -20,4 +20,13 @@ $(document).ready(function () {
 
         clockStart()
     }
+
+    var banner = $(".ban");
+    banner.owlCarousel({
+        items: 1,
+        dotsContainer: ".dots",
+        loop: true,
+        autoplay: true,
+        autoplayHoverPause: true
+    })
 })

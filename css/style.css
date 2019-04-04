@@ -238,18 +238,46 @@ header .infoItem a:hover {
 }
 
 /*.banner {*/
-/*width: 1920px;*/
-/*height: 910px;*/
+    /*width: 1920px;*/
+    /*height: 910px;*/
 /*}*/
 
-
-.banner {
-    height: 907px;
+.ban .item {
+    height: 910px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -36px;
+}
+
+.dots {
+    position: absolute;
+    right: 38px;
+    bottom: -30px;
+    z-index: 1;
+}
+
+.dots button {
+    display: block;
+    padding-top: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #ffc638;
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #102831;
+    text-align: center;
+}
+
+.dots button + button {
+    margin-top: 37px;
+}
+
+.dots button.active {
+    opacity: 1;
 }
 
 .banner .titleLight {

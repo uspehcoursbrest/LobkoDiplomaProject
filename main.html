@@ -7,9 +7,11 @@
 
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -58,15 +60,25 @@
     </div>
 </header>
 <div class="content">
-    <div class="banner" style="background-image: url(img/jpg/field1.jpg);">
-        <div class="container">
-            <div class="titleLight">
-                <span>ДУМАЙТЕ ИННОВАЦИОННО</span>
-                <h2>ЗАРАБАТЫВАЙТЕ<br>НА ставках!</h2>
+    <div class="banner">
+        <div class="ban owl-carousel">
+            <div class="item" style="background-image: url(img/jpg/field1.jpg);"></div>
+            <div class="item" style="background-image: url(img/jpg/field1.jpg);"></div>
+            <div class="container">
+                <div class="titleLight">
+                    <span>ДУМАЙТЕ ИННОВАЦИОННО</span>
+                    <h2>ЗАРАБАТЫВАЙТЕ<br>НА ставках!</h2>
+                </div>
+                <div class="btnGreen">
+                    <a href="#"><span>ПРИСОЕДИНИТЬСЯ</span></a>
+                </div>
             </div>
-            <div class="btnGreen">
-                <a href="#"><span>ПРИСОЕДИНИТЬСЯ</span></a>
-            </div>
+        </div>
+        <div class="dots">
+            <button>01</button>
+            <button>02</button>
+            <button>03</button>
+            <button>04</button>
         </div>
     </div>
     <div class="portfolio" style="background-color: #ffffff">
@@ -224,7 +236,7 @@
                     </div>
                     <div class="selectDark">
                         <label for="choisePack">Выберите пакет:</label>
-                        <select name="Выберите пакет:" id="choisePack" placeholder="Optimum 900%">
+                        <select name="Выберите пакет:" id="choisePack">
                             <option value="Pack 1">START</option>
                             <option value="Pack 2">LUXURY</option>
                             <option value="Pack 3">LITE</option>

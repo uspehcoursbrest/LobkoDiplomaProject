@@ -205,6 +205,7 @@ header .time {
 .icon-time {
     display: inline-block;
     padding-top: 2px;
+    padding-left: 2px;
 }
 
 header .logReg a {
@@ -641,21 +642,6 @@ header .infoItem a:hover {
     padding-bottom: 10px;
 }
 
-.portfolio a.line {
-    background-color: #2baf68;
-    color: #ffffff;
-}
-
-.portfolio a.line:visited {
-    background-color: #2baf68;
-    color: #ffffff;
-}
-
-.portfolio a.line:hover {
-    background-color: #2baf68;
-    color: #102831;
-}
-
 .portfolio .catalog .icon-field {
     font-size: 35px;
     color: #ffffff;
@@ -997,7 +983,7 @@ header .infoItem a:hover {
     width: 33.3333%;
     display: table;
     float: left;
-    padding-top: 39px;
+    padding-top: 50px;
 }
 
 .calculation .right li {
@@ -1033,7 +1019,7 @@ header .infoItem a:hover {
 
 .calculation {
     position: absolute;
-    bottom: -146px;
+    bottom: -172px;
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     margin-left: -10px;
     background-color: #2b3f44;
@@ -1075,8 +1061,8 @@ header .infoItem a:hover {
     line-height: 20px;
     color: #ffffff;
     background-color: #0d1f26;
-    box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
     border: none;
+    box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
 }
 
 .calculation .common {
@@ -1086,9 +1072,9 @@ header .infoItem a:hover {
     color: #2baf68;
     text-transform: uppercase;
     display: inline-block;
-    padding-left: 89px;
     margin-top: 24px;
     letter-spacing: 0.1px;
+    margin-left: 40px;
 }
 
 .calculation .sum {
@@ -1097,9 +1083,9 @@ header .infoItem a:hover {
     font-weight: bold;
     color: #ffffff;
     display: inline-block;
-    margin-left: 90px;
-    margin-top: -9px;
+    margin-top: -11px;
     letter-spacing: 0.56px;
+    margin-left: 43px;
 }
 
 .calculation .btnGreen a {
@@ -1109,9 +1095,9 @@ header .infoItem a:hover {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding-top: 9px;
     display: block;
-    margin-left: 79px;
+    margin-left: 65px;
     margin-top: 27px
 }
 
@@ -1121,7 +1107,7 @@ header .infoItem a:hover {
     color: #2baf68;
     font-weight: bold;
     text-transform: uppercase;
-    padding-left: 61px;
+    padding-left: 67px;
 }
 
 .calculation .right .two {
@@ -1129,6 +1115,8 @@ header .infoItem a:hover {
     line-height: 65px;
     font-weight: bold;
     color: #ffffff;
+    text-align: right;
+    padding-left: 13px;
 }
 
 .calculation .down .refer {
@@ -1145,6 +1133,15 @@ header .infoItem a:hover {
     background-color: #ffc638;
 }
 
+.calculation .icon-hockey {
+    position: relative!important;
+    bottom: -37px;
+    left: 20px;
+    color: #ffc638;
+    font-size: 23px;
+    z-index: 2;
+}
+
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА RESULTS*/
 
 .results {
@@ -1158,7 +1155,11 @@ header .infoItem a:hover {
 
 /*ПОЗИЦИОНИРОВАНИЕ БЛОКА RESULTS*/
 
-.results {
+.results .grafic {
+    margin-left: 425px;
+    margin-top: -370px;
+    width: 742px;
+    height: 390px;
 
 }
 

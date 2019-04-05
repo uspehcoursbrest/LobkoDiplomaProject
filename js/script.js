@@ -29,4 +29,15 @@ $(document).ready(function () {
         autoplay: true,
         autoplayHoverPause: true
     })
+
+    $("select").selectric();
+
+    var news = $(".wrop");
+    news.owlCarousel({
+        items: 1,
+        dotsContainer: ".leri",
+        // loop: true,
+        // autoplay: true,
+        // autoplayHoverPause: true
+    })
 })

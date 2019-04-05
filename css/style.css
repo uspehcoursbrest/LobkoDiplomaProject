@@ -193,7 +193,6 @@ header .time {
     color: #ffffff;
     margin-left: 94px;
     padding-left: 4px;
-    margin-top: 9px;
 }
 
 header .logReg a {
@@ -241,6 +240,10 @@ header .infoItem a:hover {
     /*width: 1920px;*/
     /*height: 910px;*/
 /*}*/
+
+.banner {
+    margin-top: -36px;
+}
 
 .ban .item {
     height: 910px;
@@ -807,6 +810,22 @@ header .infoItem a:hover {
     right: -58px;
 }
 
+.option .item:visited {
+    padding: 26px 60px;
+    text-align: center;
+    position: relative;
+    right: -58px;
+}
+
+.option .item:hover {
+    padding: 26px 60px;
+    text-align: center;
+    position: relative;
+    right: -58px;
+    background-color: #ffc638;
+    color: #102831;
+}
+
 .calculation .left {
     width: 33.3333%;
     float: left;
@@ -821,13 +840,7 @@ header .infoItem a:hover {
     padding-left: 40px;
     padding-top: 45px;
     margin-bottom: 22px;
-}
-
-.inputDark input {
-    width: 321px;
-    height: 52px;
-    padding-left: 23px;
-    padding-top: 11px;
+    color: #ffc638;
 }
 
 .selectDark {
@@ -840,6 +853,54 @@ header .infoItem a:hover {
     height: 53px;
     padding-left: 48px;
     margin-top: 6px;
+}
+
+.selectBl {
+    width: 360px;
+}
+
+.selectBl .selectric {
+    width: 100%;
+    height: 52px;
+    background-color: #0d1f26;
+    border: none;
+}
+
+.selectBl .selectric .button {
+    position: absolute;
+    right: 17px;
+    top: 30%;
+    width: 0;
+    height: 0;
+    border-left: 2px solid #ffc638;
+    border-top: 14px solid #0d1f26;
+    border-right: 14px solid #0d1f26;
+    border-bottom: 2px solid #ffc638;
+    transform: rotate(-50grad);
+}
+
+.selectric .label {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 48px;
+    padding-top: 15px;
+    color: #ffc638;
+}
+
+.selectBl .selectric .button::after {
+    display: none;
+}
+
+.selectBl .selectric-items {
+    border: 1px solid #0d1f26;
+}
+
+.selectBl .selectric-items li {
+    padding: 0;
+    padding-left: 48px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
 }
 
 .calculation .middle {
@@ -934,10 +995,11 @@ header .infoItem a:hover {
 .calculation input {
     font-size: 16px;
     line-height: 20px;
-    color: #ffffff;
     background-color: #0d1f26;
     box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
     border: none;
+    padding-left: 55px;
+    padding-top: 15px;
 }
 
 .calculation select {
@@ -1352,6 +1414,10 @@ header .infoItem a:hover {
     font-weight: bold;
     line-height: 30px;
     color: #102831;
+}
+
+.news button.owl-next {
+
 }
 
 footer {

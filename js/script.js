@@ -32,12 +32,13 @@ $(document).ready(function () {
 
     $("select").selectric();
 
-    var news = $(".wrop");
-    news.owlCarousel({
-        items: 1,
-        dotsContainer: ".leri",
-        // loop: true,
-        // autoplay: true,
-        // autoplayHoverPause: true
+    $('.newsSlider .slider').owlCarousel({
+        items: 2,
+        dots: false,
+        nav: true,
+        margin: 40,
+        navText: ['<span class="icon-left"></span>', '<span class="icon-right"></span>'],
+        loop: true,
     })
+
 })

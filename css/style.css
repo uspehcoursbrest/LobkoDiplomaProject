@@ -62,6 +62,10 @@ button:hover {
     opacity: 0.7;
 }
 
+.bodyWrap {
+    overflow: hidden;
+}
+
 ПОЗИЦИОНИРОВАНИЕ БЛОКА HEADER
 
 header {
@@ -80,6 +84,7 @@ header::before {
     height: 146px;
     background-color: #ffc638;
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
+    z-index: 2;
 }
 
 .topLine {
@@ -164,6 +169,7 @@ header .infoItem li + li {
 
 .topLine {
     position: relative;
+    z-index: 2;
 }
 
 .topLine::before {
@@ -193,6 +199,12 @@ header .time {
     color: #ffffff;
     margin-left: 94px;
     padding-left: 4px;
+    padding-bottom: -9px;
+}
+
+.icon-time {
+    display: inline-block;
+    padding-top: 2px;
 }
 
 header .logReg a {
@@ -265,6 +277,38 @@ header .infoItem a:hover {
     padding-top: 0;
     width: 34px;
     height: 34px;
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dots button:visited {
+    display: block;
+    padding-top: 0;
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dots button:hover {
+    display: block;
+    padding-top: 0;
+    width: 34px;
+    height: 34px;
     background-color: #ffc638;
     opacity: 1;
     border-radius: 50%;
@@ -272,7 +316,9 @@ header .infoItem a:hover {
     outline: none;
     cursor: pointer;
     color: #102831;
+    font-weight: bold;
     text-align: center;
+    font-size: 18px;
 }
 
 .dots button + button {
@@ -595,6 +641,21 @@ header .infoItem a:hover {
     padding-bottom: 10px;
 }
 
+.portfolio a.line {
+    background-color: #2baf68;
+    color: #ffffff;
+}
+
+.portfolio a.line:visited {
+    background-color: #2baf68;
+    color: #ffffff;
+}
+
+.portfolio a.line:hover {
+    background-color: #2baf68;
+    color: #102831;
+}
+
 .portfolio .catalog .icon-field {
     font-size: 35px;
     color: #ffffff;
@@ -866,17 +927,27 @@ header .infoItem a:hover {
     border: none;
 }
 
-.selectBl .selectric .button {
+.selectric .button {
     position: absolute;
-    right: 17px;
-    top: 30%;
-    width: 0;
-    height: 0;
-    border-left: 2px solid #ffc638;
-    border-top: 14px solid #0d1f26;
-    border-right: 14px solid #0d1f26;
-    border-bottom: 2px solid #ffc638;
-    transform: rotate(-50grad);
+    top: 20px;
+    right: 19px;
+    width: 10px;
+    height: 10px;
+    background: none;
+    border-right-width: 2px;
+    border-right-style:solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #ffc638;
+}
+
+.selectric .button::after {
+    display: none;
 }
 
 .selectric .label {
@@ -885,10 +956,6 @@ header .infoItem a:hover {
     padding-left: 48px;
     padding-top: 15px;
     color: #ffc638;
-}
-
-.selectBl .selectric .button::after {
-    display: none;
 }
 
 .selectBl .selectric-items {
@@ -998,8 +1065,9 @@ header .infoItem a:hover {
     background-color: #0d1f26;
     box-shadow: inset 3px 0 7px 0 rgba(0, 0, 0, 0.100);
     border: none;
-    padding-left: 55px;
-    padding-top: 15px;
+    padding-left: 57px;
+    color: #ffc638;
+    outline: none;
 }
 
 .calculation select {
@@ -1345,6 +1413,11 @@ header .infoItem a:hover {
 
 .perPay .image {
     display: inline-block;
+}
+
+.owl-nav button span {
+    font-size: 55px;
+    color: #fff;
 }
 
 .friends {

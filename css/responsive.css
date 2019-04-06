@@ -1,20 +1,19 @@
-@media (max-width: 991px) {
-    .container {
-        width: 750px;
-    }
-}
-
 @media (max-width: 1199px) {
     .container {
         width: 950px;
     }
 
-    .topLine .time {
-        display: none;
+    .topLine .socItem {
+        margin-left: -90px;
     }
 
     .topLine .infoItem {
         width: 100%;
+        margin-left: -50px;
+    }
+
+    header .infoItem li + li {
+        margin-left: 25px;
     }
 
     .banner {
@@ -36,6 +35,15 @@
     .advantages .item .icon-head {
         font-size: 150px;
         margin-left: 150px;
+    }
+
+    .advantages .icon-head {
+        display: block;
+        margin-top: -50px;
+    }
+
+    .advantages .textLight {
+        width: 50%;
     }
 
     .advantages .tecSup {
@@ -60,9 +68,7 @@
         background-image: none;
     }
 
-    .packages .wrapper {
-        display: none;
-    }
+
 
     .calculation .middle {
         position: relative;
@@ -84,7 +90,7 @@
     }
 
     .steps {
-       display: none;
+        display: none;
     }
 
     .statistic {
@@ -155,13 +161,151 @@
 
 }
 
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    .topLine .infoItem {
+        width: 100%;
+    }
+
+    .topLine .time {
+        margin-left: 30px;
+    }
+
+    .topLine .logReg {
+        margin-left: -30px;
+    }
+
+    .logo {
+        display: block;
+        width: 58%;
+        margin-top: -155px;
+    }
+
+    header .infoItem li + li {
+        margin-left: 25px;
+    }
+
+    .dots button {
+       display: none;
+    }
+
+    .portfolio .textDark {
+        width: 500px;
+        margin-left: 25px;
+    }
+
+    .portfolio .tumbNail {
+        width: 500px;
+        margin-left: 25px;
+    }
+
+    .advantages .item {
+        margin-left: -70px;
+    }
+
+    .advantages .icon-head {
+        display: block;
+        margin-top: -50px;
+    }
+
+    .advantages .tecSup {
+        margin-left: -50px;
+    }
+
+    .advantages .textLight {
+        width: 50%;
+        margin-left: -50px;
+    }
+
+    .catalog {
+        right: 90px;
+    }
+
+    .calculation {
+        width: 99%;
+        position: relative;
+        top: -30px;
+    }
+
+    .option .planItem {
+        margin-left: -30px;
+    }
+
+    .planItem .icon-ball {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem .icon-basketball {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem .icon-hockey {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem .icon-tennis {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem .icon-rugby {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem .icon-target {
+        position: relative;
+        left: -30px;
+    }
+
+    .planItem span {
+        display: inline-block;
+        margin-left: -13px;
+    }
+
+    .planItem .black {
+        margin-left: -20px;
+    }
+
+    .planItem .black1 {
+        margin-left: -35px;
+    }
+
+    .wrip {
+        margin-left: -50px;
+    }
+
+    .statistic .second {
+        position: relative;
+        left: -40px;
+    }
+
+    .news {
+        position: relative;
+    }
+
+    footer {
+        position: relative;
+    }
+    footer .logo {
+        display: none;
+    }
+
+}
+
 @media (max-width: 767px) {
     .container {
         width: 100%;
     }
 
     .topLine {
-        width: 70%;
+        width: 60%;
     }
 
     .logo {
@@ -171,7 +315,7 @@
 
     .logo img {
         margin-top: 20px;
-        margin-left: -60px !important;
+        margin-left: -100px !important;
     }
 
     .topLine .time {
@@ -185,35 +329,31 @@
 
     .logReg {
         margin-top: 20px;
-        margin-left: -30px;
+        margin-left: -85px;
     }
 
     .logReg .icon-lock {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .logReg .icon-keys {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .logReg .one {
         font-size: 16px !important;
     }
 
+    .topLine .socItem {
+        margin-left: 40px;
+    }
+
     header .infoItem {
-        width: 100%;
-        margin-top: 25px;
+       display: none;
     }
 
-    header .infoItem li + li {
-        display: inline-block;
-        margin-left: 5px;
-        padding: 0 -5px;
-    }
-
-    header .infoItem li {
-        display: inline-block;
-        margin-left: -5px;
+    .dots button {
+        display: none;
     }
 
     .banner .titleLight span {
@@ -265,9 +405,120 @@
     .portfolio .tumbNail {
         display: none;
     }
+    .advantages .icon-head {
+        display: none;
+    }
+
+    .advantages .tecSup {
+        display: none;
+    }
+
+    .advantages .textLight {
+        display: none;
+    }
+
+    .packages .wrapper {
+        display: none;
+    }
+
+    .packages {
+        background-image: none;
+    }
+
+    .calculation .common {
+         display: none;
+     }
+
+    .calculation .sum {
+        display: none;
+    }
+
+    .calculation .selectDark select {
+        width: 200px;
+    }
+
+    .calculation .inputDark input {
+        width: 200px;
+    }
+
+    .calculation .btnGreen a {
+        margin-left: -45px;
+    }
+
+    .calculation .icon-hockey {
+        display: none;
+    }
+
+    .calculation .down {
+        display: none;
+    }
+    .calculation .right .one {
+        display: none;
+    }
+
+    .calculation .right .two {
+        display: none;
+    }
+
+    .calculation {
+        width: 535px;
+        height: 230px;
+    }
 
     .steps {
         display: none;
     }
 
+    .wrip {
+        margin-left: -63px;
+    }
+
+    .second .last {
+        width: 60%;
+        margin-left: -60px;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .friends {
+        display: none;
+    }
+
+
+    footer::before {
+        display: none;
+    }
+
+    footer::after {
+        display: none;
+    }
+
+    footer .infoItem li {
+        display: block;
+        margin-left: -185px;
+    }
+
+    footer .adress p {
+
+    }
+
+    footer .email {
+        display: none;
+    }
+
+    footer .soc {
+        width: 100%;
+    }
+
+    footer .copyright {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer .copyright span {
+        margin-left: 70px;
+    }
+    
 }

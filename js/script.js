@@ -41,4 +41,6 @@ $(document).ready(function () {
         loop: true,
     })
 
+    $("#tabs").tabs();
+
 })

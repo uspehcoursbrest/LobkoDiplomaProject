@@ -32,13 +32,14 @@ $(document).ready(function () {
 
     $("select").selectric();
 
-    $('.newsSlider .slider').owlCarousel({
+    $('.perPay').owlCarousel({
         items: 2,
         dots: false,
         nav: true,
         margin: 40,
         navText: ['<span class="icon-left"></span>', '<span class="icon-right"></span>'],
         loop: true,
+        outline: false
     })
 
     $("#tabs").tabs();

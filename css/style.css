@@ -269,7 +269,7 @@ header .infoItem a:hover {
 .dots {
     position: absolute;
     right: 38px;
-    bottom: -30px;
+    top: 50%;
     z-index: 1;
 }
 
@@ -605,13 +605,12 @@ header .infoItem a:hover {
 .catalog {
     width: 363px;
     height: 475px;
-    padding-top: 36px;
     position: absolute;
     top: 50px;
     right: 0;
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
     background-color: #2baf68;
-    margin-right: 16px;
+
 }
 
 .catalog .line {
@@ -620,6 +619,7 @@ header .infoItem a:hover {
     padding-right: 45px;
     vertical-align: center;
     text-align: center;
+    margin-left: 45px;
 }
 
 .catalog .one {
@@ -887,6 +887,10 @@ header .infoItem a:hover {
     padding-left: 40px;
     padding-top: 45px;
     margin-bottom: 22px;
+    color: #ffc638;
+}
+
+.inputDark input::placeholder {
     color: #ffc638;
 }
 
@@ -1391,17 +1395,6 @@ header .infoItem a:hover {
     border-radius: 52px;
 }
 
-.perPay .first {
-    display: inline-block;
-    margin-top: 70px;
-    padding-right: 44px;
-}
-
-.perPay .second {
-    display: inline-block;
-    margin-top: 70px;
-}
-
 .payDoub {
     width: 278px;
     height: 269px;
@@ -1419,6 +1412,9 @@ header .infoItem a:hover {
 .owl-nav button span {
     font-size: 55px;
     color: #fff;
+    margin-left: 45px;
+
+
 }
 
 .friends {
@@ -1451,6 +1447,10 @@ header .infoItem a:hover {
     box-shadow: 3px 0 21px 0 rgba(0, 0, 0, 0.11);
 }
 
+.allNews {
+    margin-bottom: 80px;
+}
+
 .news .allNews span {
     font-size: 20px;
     line-height: 50px;
@@ -1481,6 +1481,8 @@ header .infoItem a:hover {
     padding-left: 14px;
     padding-right: 24px;
     border-radius: 27px;
+
+
 }
 
 .news .payDoub .two {
@@ -1490,9 +1492,19 @@ header .infoItem a:hover {
     color: #102831;
 }
 
-.news button.owl-next {
-
+.news button.owl-prev {
+    position: relative;
+    margin-left: 39.3333%;
+    top: 120px;
+    outline: none;
 }
+
+.news button.owl-next {
+    top: 120px;
+    position: relative;
+    outline: none;
+}
+
 
 footer {
     background-color: #102831;

@@ -12,14 +12,13 @@ $(document).ready(function () {
         }
 
         var timer;
-
         function clockStart() {
             timer = setInterval(clock, 1000);
             clock();
         }
 
         clockStart()
-    }
+    };
 
     var banner = $(".ban");
     banner.owlCarousel({
@@ -28,7 +27,7 @@ $(document).ready(function () {
         loop: true,
         autoplay: true,
         autoplayHoverPause: true
-    })
+    });
 
     $("select").selectric();
 
@@ -40,8 +39,6 @@ $(document).ready(function () {
         navText: ['<span class="icon-left"></span>', '<span class="icon-right"></span>'],
         loop: true,
         outline: false
-    })
+    });
 
-    $("#tabs").tabs();
-
-})
+});
